@@ -1,5 +1,74 @@
-<div class="ember-view">
-  <div class="docs-font-sans docs-text-black docs-leading-normal">
-    {{outlet}}
+{{page-title "ember-math-helpers"}}
+
+<div class="sticky top-0 z-10 h-16 bg-gray-1000">
+  <div class="flex h-full px-4 mx-auto sm:px-6 max-w-screen-2xl">
+    <div class="flex items-center mr-4">
+      <LinkTo @route="index" class="flex items-center text-green-500">
+        <svg
+          aria-hidden="true"
+          class="w-6 h-6 fill-current"
+          viewBox="0 0 612 612"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M612 50v512c0 27.614-22.422 50-50.082 50H50.0818C22.4224 612 .00000219 589.614.00000219 562v-11c0-27.614 22.42239781-50 50.08179781-50H500.818V50c0-27.6142 22.423-50.0000012 50.082-50l11.018 4.8e-7C589.578.00000168 612 22.3858 612 50z"
+          ></path>
+          <path
+            d="M264.03 0c31.419 1.82203 57.542 14.115 77.741 36.8823 20.2 22.3109 34.786 47.8096 43.765 76.4957C394.51 142.065 399 171.434 399 201.486c0 30.054-4.49 59.42-13.464 88.105-8.529 28.686-23.12 54.414-43.765 77.183-20.199 22.308-45.337 32.404-76.756 34.226H0V91.5237L46.4567 143.43l44.4385 44.397v103.817c0 12.295 6.2846 18.437 18.8518 18.437l131.701 1.369c17.055-.914 31.194-7.516 42.42-19.806 11.219-12.296 19.299-26.185 24.238-41.665 5.387-15.938 8.081-32.103 8.081-48.493 0-16.392-2.694-32.329-8.081-47.811-4.939-15.936-13.019-30.052-24.238-42.345-11.226-12.2949-25.365-18.8969-42.42-19.8063H90.8952L0 0h264.03z"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M144 145v59.459c0 27.366 22.184 49.55 49.55 49.55h10.9c27.361 0 49.542-22.176 49.55-49.535v-9.924c0-27.366-22.184-49.55-49.55-49.55H144z"
+            fill="#4C8C6C"
+          ></path>
+          <path
+            d="M254 194.55c0-27.366-22.184-49.55-49.55-49.55H144v59.459c0 27.366 22.184 49.55 49.55 49.55h10.9c27.361 0 49.542-22.176 49.55-49.535v-9.924z"
+          ></path>
+        </svg>
+
+        <span class="pt-1 ml-2 text-2xl font-semibold leading-none">
+          Docfy
+        </span>
+      </LinkTo>
+    </div>
+    <div class="flex items-center justify-between flex-grow px-2 md:px-6">
+      <ul>
+        <li>
+          <LinkTo
+            @route="docs"
+            class="pb-1 text-gray-200 border-b-2 border-transparent hover:border-green-500 focus:outline-none focus-visible:shadow-outline"
+            @activeClass="border-green-500"
+          >
+            Documentation
+          </LinkTo>
+        </li>
+      </ul>
+
+      <div class="flex items-center">
+        {{#unless this.isIndex}}
+          <ThemeSwitcher
+            class="ml-4 text-gray-200 md:ml-6 focus:outline-none focus-visible:shadow-outline hover:text-gray-400"
+          />
+        {{/unless}}
+        <a
+          href="https://github.com/josemarluedke/docfy"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ml-4 text-gray-200 md:ml-6 focus:outline-none focus-visible:shadow-outline hover:text-gray-400"
+        >
+          <svg viewBox="0 0 20 20" class="w-6 h-6 fill-current">
+            <title>
+              GitHub
+            </title>
+            <path
+              d="M10 0a10 10 0 0 0-3.16 19.49c.5.1.68-.22.68-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85l-.01 2.75c0 .26.18.58.69.48A10 10 0 0 0 10 0"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
+
+{{outlet}}

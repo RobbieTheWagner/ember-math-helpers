@@ -1,0 +1,91 @@
+.markdown,
+.docfy-demo__description__content {
+  @apply text-gray-700;
+
+  > hr {
+    @apply border-gray-200;
+  }
+
+  > a,
+  > p a,
+  > ul li a,
+  > ol li a {
+    @apply text-green-700;
+
+    &:hover {
+      @apply text-green-800;
+    }
+
+    strong {
+      @apply text-green-700;
+    }
+
+    code {
+      @apply text-green-700;
+    }
+  }
+
+  > p strong,
+  > ul strong {
+    @apply text-gray-800;
+  }
+
+  > p code,
+  > ul li *:not(pre) code,
+  > ul li > code,
+  > ol li *:not(pre) code,
+  > ol li > code,
+  > table td code,
+  > h1 > code,
+  > h2 > code,
+  > h3 > code,
+  > h4 > code,
+  > h5 > code,
+  > h6 > code {
+    @apply bg-yellow-200 bg-opacity-50;
+  }
+
+  > pre,
+  > ul li pre,
+  > ol li pre {
+    @apply text-gray-400 bg-gray-900;
+  }
+
+  > blockquote,
+  > blockquote blockquote {
+    @apply bg-gray-100;
+    @apply border-gray-400;
+  }
+
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > h6 {
+    @apply text-green-800;
+  }
+
+  > ul:not(.list-none) {
+    li::before {
+      @apply text-gray-400;
+    }
+  }
+
+  > ol {
+    > li::before {
+      @apply bg-gray-300;
+      @apply text-gray-700;
+    }
+  }
+
+  > table {
+    th {
+      @apply text-gray-700 bg-gray-100;
+    }
+
+    td {
+      @apply border-gray-200;
+    }
+  }
+}

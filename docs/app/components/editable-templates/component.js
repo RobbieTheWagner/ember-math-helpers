@@ -23,19 +23,19 @@ export default class EditableTemplatesComponent extends Component {
   randomBoundedAndDecimal = '{{random 93 20 decimals=1}}';
   roundTemplate = '{{round 21.23}}';
 
-  classString = `docs-transition
-    focus:docs-outline-0
-    docs-border docs-border-transparent
-    focus:docs-bg-white
-    focus:docs-border-grey-light
-    docs-placeholder-grey-darkest
-    docs-rounded
-    docs-bg-grey-lighter
-    docs-py-2 docs-pr-4
-    docs-pl-10
-    docs-block
-    docs-w-2/3
-    docs-appearance-none
-    docs-leading-normal
-    docs-ds-input`;
+  classString = `transition
+    focus:outline-0
+    border border-transparent
+    focus:bg-white
+    focus:border-grey-light
+    placeholder-grey-darkest
+    rounded
+    bg-grey-lighter
+    py-2 pr-4
+    pl-10
+    block
+    w-2/3
+    appearance-none
+    leading-normal
+    ds-input`;
 }

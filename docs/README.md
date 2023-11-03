@@ -1,56 +1,36 @@
-# docs
+# ember-math-helpers
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+<a href="https://shipshape.io/"><img src="http://i.imgur.com/KVqNjgO.png" alt="Ship Shape" width="100" height="100"/></a>
 
-## Prerequisites
+**[ember-math-helpers is built and maintained by Ship Shape. Contact us for Ember.js consulting, development, and training for your project](https://shipshape.io/ember-consulting/)**.
 
-You will need the following things properly installed on your computer.
+[![npm version](https://badge.fury.io/js/ember-math-helpers.svg)](http://badge.fury.io/js/ember-math-helpers)
+![Download count all time](https://img.shields.io/npm/dt/ember-math-helpers.svg)
+[![npm](https://img.shields.io/npm/dm/ember-math-helpers.svg)]()
+[![Ember Observer Score](http://emberobserver.com/badges/ember-math-helpers.svg)](http://emberobserver.com/addons/ember-math-helpers)
+![CI Build](https://github.com/RobbieTheWagner/ember-math-helpers/workflows/CI%20Build/badge.svg)
+[![Code Climate](https://codeclimate.com/github/rwwagner90/ember-math-helpers/badges/gpa.svg)](https://codeclimate.com/github/rwwagner90/ember-math-helpers)
+[![Test Coverage](https://codeclimate.com/github/rwwagner90/ember-math-helpers/badges/coverage.svg)](https://codeclimate.com/github/rwwagner90/ember-math-helpers/coverage)
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://cli.emberjs.com/release/)
-* [Google Chrome](https://google.com/chrome/)
+HTMLBars template helpers for doing basic arithmetic operations
+
+## Compatibility
+
+- Ember.js v4.4 or above
+- Ember CLI v4.4 or above
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd docs`
-* `npm install`
+`ember install ember-math-helpers`
 
-## Running / Development
+## Documentation
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+[View Docs](https://robbiethewagner.github.io/ember-math-helpers/)
 
-### Code Generators
+## Contributing
 
-Make use of the many generators for code, try `ember help generate` for more details
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
-### Running Tests
+## License
 
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `pnpm lint`
-* `pnpm lint:fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://cli.emberjs.com/release/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+This project is licensed under the [MIT License](LICENSE.md).

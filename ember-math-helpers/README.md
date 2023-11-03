@@ -16,9 +16,8 @@ HTMLBars template helpers for doing basic arithmetic operations
 
 ## Compatibility
 
-* Ember.js v3.28 or above
-* Ember CLI v3.28 or above
-
+- Ember.js v4.4 or above
+- Ember CLI v4.4 or above
 
 ## Installation
 
@@ -31,7 +30,6 @@ HTMLBars template helpers for doing basic arithmetic operations
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
-
 
 ## License
 

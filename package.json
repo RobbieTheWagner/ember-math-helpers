@@ -13,6 +13,7 @@
     "release": "pnpm prepare && pnpm -F ember-math-helpers release",
     "start": "npm-run-all --parallel start:*",
     "start:addon": "pnpm -F ember-math-helpers start",
+    "start:docs": "pnpm -F docs start",
     "start:test-app": "pnpm -F test-app start",
     "lint": "pnpm --filter '*' lint",
     "lint:fix": "pnpm --filter '*' lint:fix",
@@ -51,9 +52,6 @@
       "ignoreMissing": [
         "ember-cli-htmlbars"
       ]
-    },
-    "patchedDependencies": {
-      "ember-dynamic-render-template@0.0.6": "patches/ember-dynamic-render-template@0.0.6.patch"
     }
   },
   "volta": {

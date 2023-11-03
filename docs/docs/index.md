@@ -14,6 +14,11 @@
 
 HTMLBars template helpers for doing basic arithmetic operations
 
+## Compatibility
+
+- Ember.js v4.4 or above
+- Ember CLI v4.4 or above
+
 ## Installation
 
 ```sh

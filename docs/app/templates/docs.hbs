@@ -1,54 +1,92 @@
-<DocfyOutput @scope="docs" as |node|>
-  <ul class="list-disc list-inside space-y-2">
-    {{#each node.pages as |page|}}
-      <li>
-        <DocfyLink @to={{page.url}}>
-          {{page.title}}
-        </DocfyLink>
-      </li>
-    {{/each}}
+<div class="px-4 mx-auto lg:px-6 max-w-screen-2xl">
+  <DocfyOutput @fromCurrentURL={{true}} as |page|>
+    {{page-title "Documentation"}}
+    {{page-title page.title}}
+  </DocfyOutput>
 
-    {{#each node.children as |child|}}
-      <li class="block ml-4">
-        <div class="py-2">
-          {{child.label}}
+  <div class="relative lg:flex">
+    <div class="flex-none pt-12 pr-4 lg:w-64">
+      <DocfyOutput @scope="docs" as |node|>
+        <SidebarNav @node={{node}} />
+      </DocfyOutput>
+    </div>
+
+    <div class="flex-1 w-full min-w-0 px-0 pt-12 lg:px-4">
+      <DocfyOutput @fromCurrentURL={{true}} as |page|>
+        <div
+          class="markdown"
+          {{intersect-headings this.setCurrentHeadingId headings=page.headings}}
+        >
+          {{outlet}}
         </div>
+      </DocfyOutput>
 
-        <ul class="list-disc list-inside space-y-2">
-          {{#each child.pages as |page|}}
-            <li>
-              <DocfyLink @to={{page.url}}>
-                {{page.title}}
+      <div class="flex justify-between mt-10">
+        <DocfyOutput @fromCurrentURL={{true}} as |page|>
+          {{#if page.editUrl}}
+            <a
+              href={{page.editUrl}}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center"
+            >
+              <svg class="w-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"
+                ></path>
+              </svg>
+              Edit this page on GitHub
+            </a>
+          {{/if}}
+        </DocfyOutput>
+      </div>
+
+      <div
+        class="flex flex-wrap justify-between mt-5 mb-10 border-t border-gray-400 dark:border-gray-800"
+      >
+        <DocfyPreviousAndNextPage as |previous next|>
+          <div class="flex items-center pt-6 pr-2">
+            {{#if previous}}
+              <svg class="h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+
+              <DocfyLink
+                @to={{previous.url}}
+                class="text-lg text-green-700 dark:text-green-500"
+              >
+                {{previous.title}}
               </DocfyLink>
-            </li>
-          {{/each}}
-        </ul>
-      </li>
-    {{/each}}
-  </ul>
-</DocfyOutput>
+            {{/if}}
+          </div>
+          <div class="flex items-center pt-6 pl-2">
+            {{#if next}}
+              <DocfyLink
+                @to={{next.url}}
+                class="text-lg text-green-700 dark:text-green-500"
+              >
+                {{next.title}}
+              </DocfyLink>
 
-<div>
-  {{outlet}}
+              <svg class="h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            {{/if}}
+          </div>
+        </DocfyPreviousAndNextPage>
+      </div>
+    </div>
+
+    <div class="flex-none hidden w-56 pl-4 lg:block">
+      <PageHeadings @currentHeadingId={{this.currentHeadingId}} />
+    </div>
+  </div>
 </div>
-
-<DocfyPreviousAndNextPage as |previous next|>
-  <div>
-    {{#if previous}}
-      Previous:
-
-      <DocfyLink @to={{previous.url}}>
-        {{previous.title}}
-      </DocfyLink>
-    {{/if}}
-  </div>
-  <div>
-    {{#if next}}
-      Next:
-
-      <DocfyLink @to={{next.url}}>
-        {{next.title}}
-      </DocfyLink>
-    {{/if}}
-  </div>
-</DocfyPreviousAndNextPage>

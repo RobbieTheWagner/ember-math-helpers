@@ -1,0 +1,94 @@
+.dark {
+  .markdown,
+  .docfy-demo__description__content {
+    @apply text-gray-400;
+
+    > hr {
+      @apply border-gray-800;
+    }
+
+    > a,
+    > p a,
+    > ul li a,
+    > ol li a {
+      @apply text-green-500;
+
+      &:hover {
+        @apply text-green-600;
+      }
+
+      strong {
+        @apply text-green-500;
+      }
+
+      code {
+        @apply text-green-500;
+      }
+    }
+
+    > p strong,
+    > ul strong {
+      @apply text-gray-200;
+    }
+
+    > p code,
+    > ul li *:not(pre) code,
+    > ul li > code,
+    > ol li *:not(pre) code,
+    > ol li > code,
+    > table td code,
+    > h1 > code,
+    > h2 > code,
+    > h3 > code,
+    > h4 > code,
+    > h5 > code,
+    > h6 > code {
+      @apply bg-gray-1000;
+      @apply text-green-500;
+    }
+
+    > pre,
+    > ul li pre,
+    > ol li pre {
+      @apply text-gray-400 bg-gray-1000;
+    }
+
+    > blockquote,
+    > blockquote blockquote {
+      @apply bg-gray-1000;
+      @apply border-gray-600;
+    }
+
+    > h1,
+    > h2,
+    > h3,
+    > h4,
+    > h5,
+    > h6 {
+      @apply text-green-100;
+    }
+
+    > ul:not(.list-none) {
+      li::before {
+        @apply text-gray-600;
+      }
+    }
+
+    > ol {
+      > li::before {
+        @apply bg-gray-700;
+        @apply text-gray-200;
+      }
+    }
+
+    > table {
+      th {
+        @apply text-gray-400 bg-gray-1000;
+      }
+
+      td {
+        @apply border-gray-800;
+      }
+    }
+  }
+}
