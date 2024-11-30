@@ -27,12 +27,7 @@
     "_syncPnpm": "DEBUG=sync-pnpm pnpm sync-dependencies-meta-injected"
   },
   "dependencies": {
-    "ember-math-helpers": "4.0.0"
-  },
-  "dependenciesMeta": {
-    "ember-math-helpers": {
-      "injected": true
-    }
+    "ember-math-helpers": "workspace:*"
   },
   "devDependencies": {
     "@babel/core": "7.26.0",
