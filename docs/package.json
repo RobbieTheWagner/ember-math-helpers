@@ -21,10 +21,7 @@
     "lint:hbs:fix": "ember-template-lint . --fix",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
-    "start": "concurrently 'ember serve' 'pnpm _syncPnpm --watch' --names 'serve,sync deps'",
-    "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
-    "test:ember": "ember test",
-    "_syncPnpm": "DEBUG=sync-pnpm pnpm sync-dependencies-meta-injected"
+    "start": "ember serve"
   },
   "dependencies": {
     "ember-math-helpers": "workspace:*"
