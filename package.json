@@ -58,10 +58,5 @@
     "patchedDependencies": {
       "ember-dynamic-render-template@0.0.6": "patches/ember-dynamic-render-template@0.0.6.patch"
     }
-  },
-  "volta": {
-    "node": "18.17.1",
-    "pnpm": "8.7.1"
-  },
-  "version": "4.0.0"
+  }
 }
