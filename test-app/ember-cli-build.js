@@ -10,12 +10,7 @@ module.exports = function (defaults) {
     },
   });
 
-  const { Webpack } = require('@embroider/webpack');
-  return require('@embroider/compat').compatBuild(app, Webpack, {
-    skipBabel: [
-      {
-        package: 'qunit',
-      },
-    ],
-  });
+  const { maybeEmbroider } = require('@embroider/test-setup');
+
+  return maybeEmbroider(app);
 };
