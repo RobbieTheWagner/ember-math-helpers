@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
-    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-proposal-decorators": "^7.25.9",
     "@babel/plugin-transform-class-static-block": "^7.26.0",
     "@babel/plugin-transform-typescript": "^7.25.9",
@@ -51,7 +51,8 @@
     "@typescript-eslint/eslint-plugin": "^8.16.0",
     "@typescript-eslint/parser": "^8.16.0",
     "concurrently": "9.1.0",
-    "eslint": "^8.57.0",
+    "ember-source": "~6.0.1",
+    "eslint": "^8.57.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-decorator-position": "6.0.0",
     "eslint-plugin-ember": "12.3.3",
@@ -61,7 +62,8 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "^3.4.1",
-    "rollup": "^4.27.4",
+    "rollup": "^4.28.0",
+    "typescript": "^5.7.2",
     "webpack": "^5.96.1"
   },
   "peerDependencies": {
