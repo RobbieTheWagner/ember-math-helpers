@@ -11,6 +11,18 @@ module.exports = function (defaults) {
     'ember-cli-addon-docs': {
       documentingAddonAt: '../ember-math-helpers',
     },
+    webpack: {
+      node: {
+        global: false,
+        __filename: true,
+        __dirname: true,
+      },
+      resolve: {
+        fallback: {
+          path: 'path-browserify',
+        },
+      },
+    },
   });
 
   const { maybeEmbroider } = require('@embroider/test-setup');

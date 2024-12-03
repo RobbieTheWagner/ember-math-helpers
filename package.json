@@ -52,9 +52,6 @@
       "ignoreMissing": [
         "ember-cli-htmlbars"
       ]
-    },
-    "patchedDependencies": {
-      "ember-dynamic-render-template@0.0.6": "patches/ember-dynamic-render-template@0.0.6.patch"
     }
   }
 }
