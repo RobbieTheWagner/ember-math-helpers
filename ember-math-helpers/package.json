@@ -61,7 +61,7 @@
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "^3.4.2",
-    "rollup": "^4.34.2",
+    "rollup": "^4.34.3",
     "typescript": "^5.7.3",
     "webpack": "^5.97.1"
   },
