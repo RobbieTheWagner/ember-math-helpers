@@ -18,8 +18,8 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5
       release-plan:
-        specifier: ^0.12.0
-        version: 0.12.0
+        specifier: ^0.13.1
+        version: 0.13.1
 
   ember-math-helpers:
     dependencies:
@@ -8034,8 +8034,8 @@ packages:
   rehype-stringify@9.0.4:
     resolution: {integrity: sha512-Uk5xu1YKdqobe5XpSskwPvo1XeHUUucWEQSl8hTrXt5selvca1e8K1EZ37E6YoZ4BT8BCqCdVfQW7OfHfthtVQ==}
 
-  release-plan@0.12.0:
-    resolution: {integrity: sha512-Xs77t9CftM8LsrrYMEO/huMT6e3vPDfwoFN0y258jhE0dHSx/L/b/3j3mgY4/nzeVPTo8LQpnnZRXqtb4rnNAQ==}
+  release-plan@0.13.1:
+    resolution: {integrity: sha512-hvlQge4Q7xw3xo1amuJcxBN8TUKp0rDIb4a8aAIvN4nQDzqZxCnOG27gUotYE9Oh5ELpx8cXJnn61Lo9CzOgeA==}
     hasBin: true
 
   remark-gfm@3.0.1:
@@ -20117,7 +20117,7 @@ snapshots:
       hast-util-to-html: 8.0.4
       unified: 10.1.2
 
-  release-plan@0.12.0:
+  release-plan@0.13.1:
     dependencies:
       '@manypkg/get-packages': 2.2.2
       '@npmcli/package-json': 6.1.1
