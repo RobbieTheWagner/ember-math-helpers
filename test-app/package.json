@@ -80,7 +80,7 @@
     "eslint-plugin-qunit": "^8.1.2",
     "loader.js": "^4.7.0",
     "pnpm-sync-dependencies-meta-injected": "^0.0.14",
-    "prettier": "^3.5.0",
+    "prettier": "^3.5.1",
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
     "stylelint": "^16.14.1",
