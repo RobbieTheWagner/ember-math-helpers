@@ -62,7 +62,7 @@
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "^3.5.3",
     "rollup": "^4.34.9",
-    "typescript": "^5.7.3",
+    "typescript": "^5.8.2",
     "webpack": "^5.98.0"
   },
   "peerDependencies": {
