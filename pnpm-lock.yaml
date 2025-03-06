@@ -251,8 +251,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(encoding@0.1.13)
       ember-template-lint:
-        specifier: ^7.0.0
-        version: 7.0.0(@babel/core@7.26.9)
+        specifier: ^7.0.1
+        version: 7.0.1(@babel/core@7.26.9)
       ember-try:
         specifier: ^3.0.0
         version: 3.0.0(encoding@0.1.13)
@@ -3821,8 +3821,8 @@ packages:
     resolution: {integrity: sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ==}
     engines: {node: '>= 0.6'}
 
-  content-tag-utils@0.3.0:
-    resolution: {integrity: sha512-tyuXzzMyiOblbFiS+0m+jrE9WSeNEOx4FU47kNFBbFy1JBsdlD5WFEBGHnT5+Yulyqnor4y8Ep2fMxhSLGf2DQ==}
+  content-tag-utils@0.3.1:
+    resolution: {integrity: sha512-uBAmklAxqmem7WX/F7YA4eWBTegGLJ93MOPSJaJliAuzTNgF3u/H9YLlJ6Nae9/FwV+037OuXc75hvcmub1qww==}
     engines: {node: '>= 18'}
 
   content-tag@2.0.3:
@@ -4666,8 +4666,8 @@ packages:
     resolution: {integrity: sha512-LRG+BoQJTHPQlxfCPGIrOZo/UqXtadcOLuUjrhHRyQJJYDFEeJX5sWUsz/bJe48Bgi9FyOoQtdqrRAQ+COn2Kg==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  ember-template-lint@7.0.0:
-    resolution: {integrity: sha512-LWAgk/kpcYrMCIWBxC7tf+yd2t870Sk0nUAOSvow0TQxmbLADRPNlqijW3+yGf8CGzEK1eLUInzJQdm23xJxyQ==}
+  ember-template-lint@7.0.1:
+    resolution: {integrity: sha512-rFGrioqtoHyWGig6PsURQYL797Hj1u9Wbn8ZyTO3H0NUNrRgPOX+2Gu9uTrmnf+KWry/2GB+yok6OY7mVSygIA==}
     engines: {node: ^18.18.0 || >= 20.9.0}
     hasBin: true
 
@@ -14582,7 +14582,7 @@ snapshots:
     dependencies:
       safe-buffer: 5.2.1
 
-  content-tag-utils@0.3.0:
+  content-tag-utils@0.3.1:
     dependencies:
       content-tag: 3.1.1
 
@@ -16106,7 +16106,7 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  ember-template-lint@7.0.0(@babel/core@7.26.9):
+  ember-template-lint@7.0.1(@babel/core@7.26.9):
     dependencies:
       '@babel/generator': 7.26.9
       '@babel/parser': 7.26.9
@@ -16118,7 +16118,7 @@ snapshots:
       chalk: 5.4.1
       ci-info: 4.1.0
       content-tag: 3.1.1
-      content-tag-utils: 0.3.0
+      content-tag-utils: 0.3.1
       date-fns: 3.6.0
       ember-template-recast: 6.1.5
       eslint-formatter-kakoune: 1.0.0
