@@ -18,8 +18,8 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5
       release-plan:
-        specifier: ^0.14.0
-        version: 0.14.0
+        specifier: ^0.15.0
+        version: 0.15.0
 
   ember-math-helpers:
     dependencies:
@@ -8105,8 +8105,8 @@ packages:
   rehype-stringify@9.0.4:
     resolution: {integrity: sha512-Uk5xu1YKdqobe5XpSskwPvo1XeHUUucWEQSl8hTrXt5selvca1e8K1EZ37E6YoZ4BT8BCqCdVfQW7OfHfthtVQ==}
 
-  release-plan@0.14.0:
-    resolution: {integrity: sha512-75wDzyPfOEKSSyNob4NueY58vQESwip2fTOWNMi2JUtkWKG9jZHu9cP5ZptG8nXDV/Aws9OLbdzclL4n0F1ahw==}
+  release-plan@0.15.0:
+    resolution: {integrity: sha512-UxoSSDK+I0N11d2cftfzepFlgvWKUiNZLVeHapbPUVqNbQQZor9Cs7G2mE+UHjCa9+QKVAU4RdFCkILTrlR7CQ==}
     hasBin: true
 
   remark-gfm@3.0.1:
@@ -19358,7 +19358,7 @@ snapshots:
     dependencies:
       growly: 1.3.0
       is-wsl: 2.2.0
-      semver: 7.6.3
+      semver: 7.7.1
       shellwords: 0.1.1
       uuid: 8.3.2
       which: 2.0.2
@@ -20299,7 +20299,7 @@ snapshots:
       hast-util-to-html: 8.0.4
       unified: 10.1.2
 
-  release-plan@0.14.0:
+  release-plan@0.15.0:
     dependencies:
       '@manypkg/get-packages': 2.2.2
       '@npmcli/package-json': 6.1.1
