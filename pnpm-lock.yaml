@@ -86,7 +86,7 @@ importers:
         version: 10.1.1(eslint@8.57.1)
       eslint-plugin-decorator-position:
         specifier: 6.0.0
-        version: 6.0.0(@babel/eslint-parser@7.26.8(@babel/core@7.26.9)(eslint@8.57.1))(eslint@8.57.1)
+        version: 6.0.0(@babel/eslint-parser@7.26.10(@babel/core@7.26.9)(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-ember:
         specifier: 12.5.0
         version: 12.5.0(@babel/core@7.26.9)(@typescript-eslint/parser@8.26.1(eslint@8.57.1)(typescript@5.8.2))(eslint@8.57.1)
@@ -128,8 +128,8 @@ importers:
         specifier: 7.26.9
         version: 7.26.9(supports-color@8.1.1)
       '@babel/eslint-parser':
-        specifier: ^7.26.8
-        version: 7.26.8(@babel/core@7.26.9)(eslint@8.57.1)
+        specifier: ^7.26.10
+        version: 7.26.10(@babel/core@7.26.9)(eslint@8.57.1)
       '@babel/helper-call-delegate':
         specifier: ^7.12.13
         version: 7.12.13
@@ -336,8 +336,8 @@ packages:
     resolution: {integrity: sha512-lWBYIrF7qK5+GjY5Uy+/hEgp8OJWOD/rpy74GplYRhEauvbHDeFB8t5hPOZxCZ0Oxf4Cc36tK51/l3ymJysrKw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/eslint-parser@7.26.8':
-    resolution: {integrity: sha512-3tBctaHRW6xSub26z7n8uyOTwwUsCdvIug/oxBH9n6yCO5hMj2vwDJAo7RbBMKrM7P+W2j61zLKviJQFGOYKMg==}
+  '@babel/eslint-parser@7.26.10':
+    resolution: {integrity: sha512-QsfQZr4AiLpKqn7fz+j7SN+f43z2DZCgGyYbNJ2vJOqKfG4E6MZer1+jqGZqKJaxq/gdO2DC/nUu45+pOL5p2Q==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
@@ -9777,7 +9777,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/eslint-parser@7.26.8(@babel/core@7.26.9)(eslint@8.57.1)':
+  '@babel/eslint-parser@7.26.10(@babel/core@7.26.9)(eslint@8.57.1)':
     dependencies:
       '@babel/core': 7.26.9(supports-color@8.1.1)
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
@@ -15804,7 +15804,7 @@ snapshots:
   ember-eslint-parser@0.5.9(@babel/core@7.26.9)(@typescript-eslint/parser@8.26.1(eslint@8.57.1)(typescript@5.8.2))(eslint@8.57.1):
     dependencies:
       '@babel/core': 7.26.9(supports-color@8.1.1)
-      '@babel/eslint-parser': 7.26.8(@babel/core@7.26.9)(eslint@8.57.1)
+      '@babel/eslint-parser': 7.26.10(@babel/core@7.26.9)(eslint@8.57.1)
       '@glimmer/syntax': 0.92.3
       content-tag: 2.0.3
       eslint-scope: 7.2.2
@@ -16468,7 +16468,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-decorator-position@6.0.0(@babel/eslint-parser@7.26.8(@babel/core@7.26.9)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-plugin-decorator-position@6.0.0(@babel/eslint-parser@7.26.10(@babel/core@7.26.9)(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       '@babel/core': 7.26.9(supports-color@8.1.1)
       '@babel/plugin-proposal-decorators': 7.25.9(@babel/core@7.26.9)
@@ -16477,7 +16477,7 @@ snapshots:
       eslint: 8.57.1
       snake-case: 3.0.4
     optionalDependencies:
-      '@babel/eslint-parser': 7.26.8(@babel/core@7.26.9)(eslint@8.57.1)
+      '@babel/eslint-parser': 7.26.10(@babel/core@7.26.9)(eslint@8.57.1)
     transitivePeerDependencies:
       - supports-color
 
