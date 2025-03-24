@@ -46,7 +46,7 @@
     "@glint/environment-ember-template-imports": "^1.5.2",
     "@glint/template": "^1.5.2",
     "@rollup/plugin-babel": "6.0.4",
-    "@tsconfig/ember": "^3.0.9",
+    "@tsconfig/ember": "^3.0.10",
     "@types/rsvp": "^4.0.9",
     "@typescript-eslint/eslint-plugin": "^8.27.0",
     "@typescript-eslint/parser": "^8.27.0",
