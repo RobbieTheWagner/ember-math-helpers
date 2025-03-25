@@ -49,7 +49,7 @@
     "@tsconfig/ember": "^3.0.10",
     "@types/rsvp": "^4.0.9",
     "@typescript-eslint/eslint-plugin": "^8.27.0",
-    "@typescript-eslint/parser": "^8.27.0",
+    "@typescript-eslint/parser": "^8.28.0",
     "concurrently": "9.1.2",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "10.1.1",
