@@ -24,8 +24,8 @@ importers:
   ember-math-helpers:
     dependencies:
       '@embroider/addon-shim':
-        specifier: ^1.9.0
-        version: 1.9.0
+        specifier: ^1.10.0
+        version: 1.10.0
     devDependencies:
       '@babel/core':
         specifier: ^7.26.10
@@ -1234,12 +1234,12 @@ packages:
       rollup:
         optional: true
 
-  '@embroider/addon-shim@1.8.9':
-    resolution: {integrity: sha512-qyN64T1jMHZ99ihlk7VFHCWHYZHLE1DOdHi0J7lmn5waV1DoW7gD8JLi1i7FregzXtKhbDc7shyEmTmWPTs8MQ==}
+  '@embroider/addon-shim@1.10.0':
+    resolution: {integrity: sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/addon-shim@1.9.0':
-    resolution: {integrity: sha512-fMzayl/licUL8VRAy4qXROKcYvHwUbV8aTh4m97L5/MRuVpxbcAy92DGGTqx5OBKCSQN3gMg+sUKeE6AviefpQ==}
+  '@embroider/addon-shim@1.8.9':
+    resolution: {integrity: sha512-qyN64T1jMHZ99ihlk7VFHCWHYZHLE1DOdHi0J7lmn5waV1DoW7gD8JLi1i7FregzXtKhbDc7shyEmTmWPTs8MQ==}
     engines: {node: 12.* || 14.* || >= 16}
 
   '@embroider/babel-loader-9@3.1.1':
@@ -1303,6 +1303,10 @@ packages:
 
   '@embroider/shared-internals@2.9.0':
     resolution: {integrity: sha512-8untWEvGy6av/oYibqZWMz/yB+LHsKxEOoUZiLvcpFwWj2Sipc0DcXeTJQZQZ++otNkLCWyDrDhOLrOkgjOPSg==}
+    engines: {node: 12.* || 14.* || >= 16}
+
+  '@embroider/shared-internals@3.0.0':
+    resolution: {integrity: sha512-5J5ipUMCAinQS38WW7wedruq5Z4VnHvNo+ZgOduw0PtI9w0CQWx7/HE+98PBDW8jclikeF+aHwF317vc1hwuzg==}
     engines: {node: 12.* || 14.* || >= 16}
 
   '@embroider/test-setup@4.0.0':
@@ -8278,6 +8282,10 @@ packages:
     resolution: {integrity: sha512-ZuF55hVUQaaczgOIwqWzkEcEidmlD/xl44x1UZnhOXcYuFN2S6+rcxpG+C1N3So0wvNI3DmJICUFfu2SxhBmvg==}
     deprecated: https://github.com/lydell/resolve-url#deprecated
 
+  resolve.exports@2.0.3:
+    resolution: {integrity: sha512-OcXjMsGdhL4XnbShKpAcSqPMzQoYkYyhbEaeSko47MjRP9NfEQMhZkXL1DoFlt9LWQn4YttrdnV6X2OiyzBi+A==}
+    engines: {node: '>=10'}
+
   resolve@1.22.10:
     resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
     engines: {node: '>= 0.4'}
@@ -11041,7 +11049,7 @@ snapshots:
   '@ember/test-helpers@5.0.0(@babel/core@7.26.10)(@glint/template@1.5.2)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0))':
     dependencies:
       '@ember/test-waiters': 3.1.0
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.16.12(@glint/template@1.5.2)
       '@simple-dom/interface': 1.4.0
       decorator-transforms: 2.3.0(@babel/core@7.26.10)
@@ -11063,7 +11071,7 @@ snapshots:
 
   '@ember/test-waiters@4.1.0(@glint/template@1.5.2)':
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.16.12(@glint/template@1.5.2)
     transitivePeerDependencies:
       - '@glint/template'
@@ -11089,21 +11097,21 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@embroider/addon-shim@1.8.9':
+  '@embroider/addon-shim@1.10.0':
     dependencies:
-      '@embroider/shared-internals': 2.9.0(supports-color@8.1.1)
+      '@embroider/shared-internals': 3.0.0
       broccoli-funnel: 3.0.8
       common-ancestor-path: 1.0.1
       semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/addon-shim@1.9.0':
+  '@embroider/addon-shim@1.8.9':
     dependencies:
-      '@embroider/shared-internals': 2.8.1
+      '@embroider/shared-internals': 2.9.0(supports-color@8.1.1)
       broccoli-funnel: 3.0.8
       common-ancestor-path: 1.0.1
-      semver: 7.6.3
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
@@ -11321,6 +11329,24 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@embroider/shared-internals@3.0.0':
+    dependencies:
+      babel-import-util: 3.0.1
+      debug: 4.4.0(supports-color@8.1.1)
+      ember-rfc176-data: 0.3.18
+      fs-extra: 9.1.0
+      is-subdir: 1.2.0
+      js-string-escape: 1.0.1
+      lodash: 4.17.21
+      minimatch: 3.1.2
+      pkg-entry-points: 1.1.1
+      resolve-package-path: 4.0.3
+      resolve.exports: 2.0.3
+      semver: 7.7.1
+      typescript-memoize: 1.1.1
+    transitivePeerDependencies:
+      - supports-color
+
   '@embroider/test-setup@4.0.0(@embroider/compat@3.8.5(@embroider/core@3.5.5(@glint/template@1.5.2))(@glint/template@1.5.2))(@embroider/core@3.5.5(@glint/template@1.5.2))(@embroider/webpack@4.1.0(@embroider/core@3.5.5(@glint/template@1.5.2))(webpack@5.98.0))':
     dependencies:
       lodash: 4.17.21
@@ -11438,7 +11464,7 @@ snapshots:
 
   '@glimmer/component@2.0.0':
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       '@glimmer/env': 0.1.7
     transitivePeerDependencies:
       - supports-color
@@ -12683,7 +12709,7 @@ snapshots:
 
   '@warp-drive/build-config@0.0.2(@glint/template@1.5.2)':
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.16.12(@glint/template@1.5.2)
       babel-import-util: 2.1.1
       broccoli-funnel: 3.0.8
@@ -16043,7 +16069,7 @@ snapshots:
 
   ember-keyboard@9.0.1(@babel/core@7.26.10)(@ember/test-helpers@5.0.0(@babel/core@7.26.10)(@glint/template@1.5.2)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)))(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)):
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       ember-destroyable-polyfill: 2.0.3(@babel/core@7.26.10)
       ember-modifier: 4.2.0(@babel/core@7.26.10)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0))
       ember-modifier-manager-polyfill: 1.2.0(@babel/core@7.26.10)
@@ -16086,7 +16112,7 @@ snapshots:
 
   ember-modifier@4.2.0(@babel/core@7.26.10)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)):
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       decorator-transforms: 2.3.0(@babel/core@7.26.10)
       ember-cli-normalize-entity-name: 1.0.0
       ember-cli-string-utils: 1.1.0
@@ -16098,7 +16124,7 @@ snapshots:
 
   ember-page-title@9.0.1(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)):
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       '@simple-dom/document': 1.4.0
       ember-source: 6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)
     transitivePeerDependencies:
@@ -16107,7 +16133,7 @@ snapshots:
   ember-qunit@8.1.1(@ember/test-helpers@5.0.0(@babel/core@7.26.10)(@glint/template@1.5.2)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)))(@glint/template@1.5.2)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0))(qunit@2.24.1):
     dependencies:
       '@ember/test-helpers': 5.0.0(@babel/core@7.26.10)(@glint/template@1.5.2)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0))
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.16.12(@glint/template@1.5.2)
       ember-cli-test-loader: 3.1.0
       ember-source: 6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)
@@ -16166,7 +16192,7 @@ snapshots:
 
   ember-resources@7.0.3(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.2)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)):
     dependencies:
-      '@embroider/addon-shim': 1.8.9
+      '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.16.12(@glint/template@1.5.2)
       '@glimmer/tracking': 1.1.2
       '@glint/template': 1.5.2
@@ -16217,7 +16243,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.26.10(supports-color@8.1.1)
       '@ember/edition-utils': 1.2.0
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       '@glimmer/compiler': 0.92.4
       '@glimmer/component': 2.0.0
       '@glimmer/destroyable': 0.92.3
@@ -16354,7 +16380,7 @@ snapshots:
 
   ember-truth-helpers@4.0.3(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)):
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       ember-functions-as-helper-polyfill: 2.1.2(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0))
       ember-source: 6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)
     transitivePeerDependencies:
@@ -20616,6 +20642,8 @@ snapshots:
 
   resolve-url@0.2.1: {}
 
+  resolve.exports@2.0.3: {}
+
   resolve@1.22.10:
     dependencies:
       is-core-module: 2.16.1
@@ -21772,7 +21800,7 @@ snapshots:
 
   tracked-built-ins@4.0.0(@babel/core@7.26.10):
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       decorator-transforms: 2.3.0(@babel/core@7.26.10)
       ember-tracked-storage-polyfill: 1.0.0
     transitivePeerDependencies:
@@ -21781,7 +21809,7 @@ snapshots:
 
   tracked-toolbox@2.0.0(@babel/core@7.26.10)(ember-source@6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)):
     dependencies:
-      '@embroider/addon-shim': 1.9.0
+      '@embroider/addon-shim': 1.10.0
       ember-cache-primitive-polyfill: 1.0.1(@babel/core@7.26.10)
     optionalDependencies:
       ember-source: 6.3.0(@glimmer/component@2.0.0)(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)
