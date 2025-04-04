@@ -31,7 +31,7 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@embroider/addon-shim": "^1.9.0"
+    "@embroider/addon-shim": "^1.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
