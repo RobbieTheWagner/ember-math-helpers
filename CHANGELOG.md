@@ -1,5 +1,10 @@
 # Changelog
 
+
+
+
+
+
 ## Release (2024-12-10)
 
 ember-math-helpers 4.2.1 (patch)
