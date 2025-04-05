@@ -1,17 +1,8 @@
 {
   "solution": {
     "ember-math-helpers": {
-      "impact": "patch",
-      "oldVersion": "4.2.0",
-      "newVersion": "4.2.1",
-      "constraints": [
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        }
-      ],
-      "pkgJSONPath": "./ember-math-helpers/package.json"
+      "oldVersion": "4.2.1"
     }
   },
-  "description": "## Release (2024-12-10)\n\nember-math-helpers 4.2.1 (patch)\n\n#### :bug: Bug Fix\n* `ember-math-helpers`\n  * [#1872](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1872) Remove app reexport of index ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n\n#### Committers: 1\n- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n"
+  "description": "\n\n\n\n"
 }
