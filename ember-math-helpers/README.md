@@ -14,13 +14,15 @@ HTMLBars template helpers for doing basic arithmetic operations
 
 ## Compatibility
 
-* Ember.js v3.28 or above
-* Ember CLI v3.28 or above
+- Ember.js v4.12 or above
+- Embroider or ember-auto-import v2
 
 
 ## Installation
 
-`ember install ember-math-helpers`
+```
+ember install ember-math-helpers
+```
 
 ## Documentation
 

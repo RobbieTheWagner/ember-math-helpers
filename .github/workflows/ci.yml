@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   test:
-    name: "Tests"
+    name: 'Tests'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -34,7 +34,7 @@ jobs:
         run: pnpm test
 
   floating:
-    name: "Floating Dependencies"
+    name: 'Floating Dependencies'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -62,15 +62,13 @@ jobs:
       fail-fast: false
       matrix:
         try-scenario:
-          - ember-lts-4.4
-          - ember-lts-4.8
           - ember-lts-4.12
           - ember-lts-5.4
           - ember-release
           - ember-beta
           - ember-canary
           - embroider-safe
-          # - embroider-optimized
+          - embroider-optimized
 
     steps:
       - uses: actions/checkout@v4
@@ -86,13 +84,3 @@ jobs:
       - name: Run Tests
         run: ./node_modules/.bin/ember try:one ${{ matrix.try-scenario }} --skip-cleanup
         working-directory: test-app
-  automerge:
-    needs: [test, try-scenarios]
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: write
-    steps:
-      - uses: fastify/github-action-merge-dependabot@v3.11.0
-        with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
