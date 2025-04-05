@@ -1,10 +1,9 @@
 {
-  "version": "4.1.1",
   "private": true,
   "repository": "https://github.com/RobbieTheWagner/ember-math-helpers",
   "license": "MIT",
   "author": {
-    "name": "Robert Wagner",
+    "name": "Robbie Wagner",
     "email": "rwwagner90@gmail.com",
     "url": "https://github.com/RobbieTheWagner"
   },
@@ -21,8 +20,11 @@
     "test:ember": "pnpm --filter '*' test:ember"
   },
   "devDependencies": {
+    "@glint/core": "^1.2.1",
     "concurrently": "^9.1.2",
     "npm-run-all": "^4.1.5",
+    "prettier": "^3.0.3",
+    "prettier-plugin-ember-template-tag": "^2.0.2",
     "release-plan": "^0.16.0"
   },
   "pnpm": {
