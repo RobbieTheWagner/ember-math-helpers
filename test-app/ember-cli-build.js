@@ -4,10 +4,11 @@ const path = require('path');
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function (defaults) {
-  let mathHelpersEntry = require.resolve('ember-math-helpers/addon-main');
+  // dist/index.js
+  let mathHelpersEntry = require.resolve('ember-math-helpers');
 
   // We can never assume a node_modules structure
-  let mathHelpersDir = path.dirname(mathHelpersEntry);
+  let mathHelpersDir = path.dirname(path.dirname(mathHelpersEntry));
 
   const app = new EmberApp(defaults, {
     autoImport: {
