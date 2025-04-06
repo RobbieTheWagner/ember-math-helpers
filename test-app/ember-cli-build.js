@@ -1,15 +1,21 @@
 'use strict';
 
+const path = require('path');
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function (defaults) {
+  let mathHelpersEntry = require.resolve('ember-math-helpers/addon-main');
+
+  // We can never assume a node_modules structure
+  let mathHelpersDir = path.dirname(mathHelpersEntry);
+
   const app = new EmberApp(defaults, {
     autoImport: {
       watchDependencies: ['ember-math-helpers'],
     },
     'ember-cli-babel': { enableTypeScriptTransform: true },
     'ember-cli-addon-docs': {
-      documentingAddonAt: '../ember-math-helpers',
+      documentingAddonAt: mathHelpersDir,
     },
     webpack: {
       node: {
