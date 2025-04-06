@@ -34,6 +34,7 @@
       ]
     },
     "overrides": {
+      "ember-math-helpers": "workspace:*",
       "@glimmer/validator": "^0.84.3"
     }
   }
