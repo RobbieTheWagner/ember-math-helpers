@@ -1,0 +1,149 @@
+{
+  "name": "ember-math-helpers",
+  "version": "5.0.0",
+  "description": "HTMLBars helpers for basic arithmetic",
+  "keywords": [
+    "ember-addon"
+  ],
+  "repository": "https://github.com/RobbieTheWagner/ember-math-helpers",
+  "license": "MIT",
+  "author": {
+    "name": "Robbie Wagner",
+    "email": "rwwagner90@gmail.com",
+    "url": "https://github.com/RobbieTheWagner"
+  },
+  "exports": {
+    ".": {
+      "types": "./declarations/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./*": {
+      "types": "./declarations/*.d.ts",
+      "default": "./dist/*.js"
+    },
+    "./addon-main.js": "./addon-main.cjs"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "declarations/*"
+      ]
+    }
+  },
+  "files": [
+    "addon-main.cjs",
+    "declarations",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup --config",
+    "format": "prettier . --cache --write",
+    "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\" --prefixColors auto",
+    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\" --prefixColors auto && pnpm run format",
+    "lint:format": "prettier . --cache --check",
+    "lint:hbs": "ember-template-lint . --no-error-on-unmatched-pattern",
+    "lint:hbs:fix": "ember-template-lint . --fix --no-error-on-unmatched-pattern",
+    "lint:js": "eslint . --cache",
+    "lint:js:fix": "eslint . --fix",
+    "lint:types": "glint",
+    "start": "rollup --config --watch",
+    "test": "echo 'A v2 addon does not have tests, run tests in test-app'"
+  },
+  "dependencies": {
+    "@embroider/addon-shim": "^1.8.9",
+    "decorator-transforms": "^2.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/eslint-parser": "^7.25.1",
+    "@babel/plugin-transform-typescript": "^7.25.2",
+    "@babel/runtime": "^7.25.6",
+    "@embroider/addon-dev": "^8.0.1",
+    "@eslint/js": "^9.17.0",
+    "@glint/core": "^1.5.2",
+    "@glint/environment-ember-loose": "^1.5.2",
+    "@glint/environment-ember-template-imports": "^1.5.2",
+    "@glint/template": "^1.5.2",
+    "@rollup/plugin-babel": "6.0.4",
+    "@tsconfig/ember": "^3.0.10",
+    "@types/rsvp": "^4.0.9",
+    "babel-plugin-ember-template-compilation": "^2.2.5",
+    "concurrently": "^9.0.1",
+    "ember-source": "^5.12.0",
+    "ember-template-lint": "^6.0.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-ember": "^12.3.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.15.1",
+    "globals": "^16.0.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-ember-template-tag": "^2.0.4",
+    "rollup": "^4.22.5",
+    "rollup-plugin-copy": "^3.5.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.19.1",
+    "webpack": "^5.98.0"
+  },
+  "peerDependencies": {
+    "ember-source": ">= 4.12.0"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "ember": {
+    "edition": "octane"
+  },
+  "ember-addon": {
+    "version": 2,
+    "type": "addon",
+    "main": "addon-main.cjs",
+    "app-js": {
+      "./helpers/abs.js": "./dist/_app_/helpers/abs.js",
+      "./helpers/acos.js": "./dist/_app_/helpers/acos.js",
+      "./helpers/acosh.js": "./dist/_app_/helpers/acosh.js",
+      "./helpers/add.js": "./dist/_app_/helpers/add.js",
+      "./helpers/asin.js": "./dist/_app_/helpers/asin.js",
+      "./helpers/asinh.js": "./dist/_app_/helpers/asinh.js",
+      "./helpers/atan.js": "./dist/_app_/helpers/atan.js",
+      "./helpers/atan2.js": "./dist/_app_/helpers/atan2.js",
+      "./helpers/atanh.js": "./dist/_app_/helpers/atanh.js",
+      "./helpers/cbrt.js": "./dist/_app_/helpers/cbrt.js",
+      "./helpers/ceil.js": "./dist/_app_/helpers/ceil.js",
+      "./helpers/clz32.js": "./dist/_app_/helpers/clz32.js",
+      "./helpers/cos.js": "./dist/_app_/helpers/cos.js",
+      "./helpers/cosh.js": "./dist/_app_/helpers/cosh.js",
+      "./helpers/div.js": "./dist/_app_/helpers/div.js",
+      "./helpers/exp.js": "./dist/_app_/helpers/exp.js",
+      "./helpers/expm1.js": "./dist/_app_/helpers/expm1.js",
+      "./helpers/floor.js": "./dist/_app_/helpers/floor.js",
+      "./helpers/fround.js": "./dist/_app_/helpers/fround.js",
+      "./helpers/gcd.js": "./dist/_app_/helpers/gcd.js",
+      "./helpers/hypot.js": "./dist/_app_/helpers/hypot.js",
+      "./helpers/imul.js": "./dist/_app_/helpers/imul.js",
+      "./helpers/lcm.js": "./dist/_app_/helpers/lcm.js",
+      "./helpers/log-e.js": "./dist/_app_/helpers/log-e.js",
+      "./helpers/log10.js": "./dist/_app_/helpers/log10.js",
+      "./helpers/log1p.js": "./dist/_app_/helpers/log1p.js",
+      "./helpers/log2.js": "./dist/_app_/helpers/log2.js",
+      "./helpers/max.js": "./dist/_app_/helpers/max.js",
+      "./helpers/min.js": "./dist/_app_/helpers/min.js",
+      "./helpers/mod.js": "./dist/_app_/helpers/mod.js",
+      "./helpers/mult.js": "./dist/_app_/helpers/mult.js",
+      "./helpers/pow.js": "./dist/_app_/helpers/pow.js",
+      "./helpers/random.js": "./dist/_app_/helpers/random.js",
+      "./helpers/round.js": "./dist/_app_/helpers/round.js",
+      "./helpers/sign.js": "./dist/_app_/helpers/sign.js",
+      "./helpers/sin.js": "./dist/_app_/helpers/sin.js",
+      "./helpers/sqrt.js": "./dist/_app_/helpers/sqrt.js",
+      "./helpers/sub.js": "./dist/_app_/helpers/sub.js",
+      "./helpers/sum.js": "./dist/_app_/helpers/sum.js",
+      "./helpers/tan.js": "./dist/_app_/helpers/tan.js",
+      "./helpers/tanh.js": "./dist/_app_/helpers/tanh.js",
+      "./helpers/trunc.js": "./dist/_app_/helpers/trunc.js"
+    }
+  }
+}
