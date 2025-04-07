@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2025-04-07)
+
+* ember-math-helpers 5.0.0 (major)
+
+#### :boom: Breaking Change
+* `ember-math-helpers`
+  * [#2053](https://github.com/RobbieTheWagner/ember-math-helpers/pull/2053) Drop support for Ember < 4.12 ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 1
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
 ## Release (2024-12-10)
 
 ember-math-helpers 4.2.1 (patch)
