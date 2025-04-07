@@ -26,7 +26,7 @@
   "main": {
     "path": "versions/main",
     "name": "main",
-    "sha": "5f58575f876ed192e7f748bb86a49560d4d59a99",
+    "sha": "a8032dbcb61d30eb70ed33f79bca56cc89caf80a",
     "tag": null
   },
   "v4.2.0-ember-math-helpers": {
