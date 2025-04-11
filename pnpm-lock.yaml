@@ -16159,7 +16159,7 @@ snapshots:
 
   ember-resources@7.0.3(a47fb31e89f90b6c0e13197cce112450):
     dependencies:
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.8.9
       '@embroider/macros': 1.17.1(@glint/template@1.5.2)
       '@glimmer/tracking': 1.1.2
       '@glint/template': 1.5.2
