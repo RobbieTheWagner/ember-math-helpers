@@ -161,8 +161,8 @@ importers:
         specifier: ~5.4.1
         version: 5.4.1(6463622ce5a9845a7e6cea1b01b837b2)
       '@ember-data/model':
-        specifier: ~5.3.12
-        version: 5.3.12(51f26de9701a8b5a9e8c0d79727d1af5)
+        specifier: ~5.4.1
+        version: 5.4.1(51f26de9701a8b5a9e8c0d79727d1af5)
       '@ember-data/request':
         specifier: ~5.4.1
         version: 5.4.1(96d02dad29978212a3bdf1a0f65ae413)
@@ -249,7 +249,7 @@ importers:
         version: 6.3.0(2b11abe064abe7604e4e218a4dd18eb2)
       ember-cli-addon-docs:
         specifier: ^8.0.8
-        version: 8.0.8(6b5555787b4607de4dec3df34b022dbc)
+        version: 8.0.8(0437e03db23582ce656e573f6179ecec)
       ember-cli-addon-docs-yuidoc:
         specifier: ^1.1.0
         version: 1.1.0
@@ -1181,24 +1181,6 @@ packages:
       '@ember-data/store': 5.4.1
       '@ember/test-waiters': ^3.1.0 || >= 4.0.0
       '@warp-drive/core-types': 5.4.1
-      ember-source: 3.28.12 || ^4.0.4 || ^5.0.0 || ^6.0.0
-    peerDependenciesMeta:
-      '@ember-data/graph':
-        optional: true
-      '@ember-data/json-api':
-        optional: true
-
-  '@ember-data/model@5.3.12':
-    resolution: {integrity: sha512-MmfKQCtI0zNTP/6W0Gtni4SRc3RHBmeqbLUvBau5uNbsJgBN/7etpEJ80uqk9yQfFp/N2ffu14G/WjdLGFunYA==}
-    engines: {node: '>= 18.20.7'}
-    peerDependencies:
-      '@ember-data/graph': 5.3.12
-      '@ember-data/json-api': 5.3.12
-      '@ember-data/legacy-compat': 5.3.12
-      '@ember-data/request-utils': 5.3.12
-      '@ember-data/store': 5.3.12
-      '@ember-data/tracking': 5.3.12
-      '@warp-drive/core-types': 0.0.2
       ember-source: 3.28.12 || ^4.0.4 || ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
       '@ember-data/graph':
@@ -2540,10 +2522,6 @@ packages:
   '@typescript-eslint/visitor-keys@8.30.1':
     resolution: {integrity: sha512-aEhgas7aJ6vZnNFC7K4/vMGDGyOiqWcYZPpIWrTKuTAlsvDNKy2GFDqh9smL+iq069ZvR0YzEeq0B8NJlLzjFA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
-  '@warp-drive/build-config@0.0.2':
-    resolution: {integrity: sha512-sPnLFRkN5a0sjr3wlEUysi3G0Gj9Si0HwYksva86hvtypGHY0tDd6rfLQFu9j4RxKAN/APDR0qa8EN2BsfdPeA==}
-    engines: {node: '>= 18.20.7'}
 
   '@warp-drive/build-config@5.4.1':
     resolution: {integrity: sha512-qGwZOlLKJ2DECR8WwfFdS3zVVkXaDga/sa7+LtsArGQr9QgRJZ9xWWGDyi4xUTeD+faUwX2Ki2Kd4Dpy39foew==}
@@ -10887,27 +10865,6 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  '@ember-data/model@5.3.12(51f26de9701a8b5a9e8c0d79727d1af5)':
-    dependencies:
-      '@ember-data/legacy-compat': 5.4.1(6463622ce5a9845a7e6cea1b01b837b2)
-      '@ember-data/request-utils': 5.4.1(ef35fbb931dc28dff494f6f4fddec703)
-      '@ember-data/store': 5.4.1(0927f0f3c47b1dceb5b2dd3944c59503)
-      '@ember-data/tracking': 5.4.1(f01eb38fa01b43239b72e159669b75ff)
-      '@ember/edition-utils': 1.2.0
-      '@embroider/macros': 1.17.1(@glint/template@1.5.2)
-      '@warp-drive/build-config': 0.0.2(@glint/template@1.5.2)
-      '@warp-drive/core-types': 5.4.1(@glint/template@1.5.2)
-      ember-cli-string-utils: 1.1.0
-      ember-cli-test-info: 1.0.0
-      ember-source: 6.3.0(9527ff583ba58ab13de82026de2605fe)
-      inflection: 3.0.2
-    optionalDependencies:
-      '@ember-data/graph': 5.4.1(54b53efaa3a28b6abef7bd72499cf7e4)
-      '@ember-data/json-api': 5.4.1(e7d120605ceac7aa41d4399f1754c8c0)
-    transitivePeerDependencies:
-      - '@glint/template'
-      - supports-color
-
   '@ember-data/model@5.4.1(51f26de9701a8b5a9e8c0d79727d1af5)':
     dependencies:
       '@ember-data/legacy-compat': 5.4.1(6463622ce5a9845a7e6cea1b01b837b2)
@@ -12746,17 +12703,6 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.30.1
       eslint-visitor-keys: 4.2.0
-
-  '@warp-drive/build-config@0.0.2(@glint/template@1.5.2)':
-    dependencies:
-      '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.17.1(@glint/template@1.5.2)
-      babel-import-util: 2.1.1
-      broccoli-funnel: 3.0.8
-      semver: 7.7.1
-    transitivePeerDependencies:
-      - '@glint/template'
-      - supports-color
 
   '@warp-drive/build-config@5.4.1(@glint/template@1.5.2)':
     dependencies:
@@ -15344,7 +15290,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli-addon-docs@8.0.8(6b5555787b4607de4dec3df34b022dbc):
+  ember-cli-addon-docs@8.0.8(0437e03db23582ce656e573f6179ecec):
     dependencies:
       '@csstools/postcss-sass': 5.1.1(postcss@8.4.49)
       '@ember/render-modifiers': 2.1.0(15fa840cd8c53dba66f131fa08e13d2c)
@@ -15417,7 +15363,7 @@ snapshots:
       yuidocjs: 0.10.2
     optionalDependencies:
       '@ember-data/adapter': 5.4.1(c8dffff18bdbe8937bc5f479f3b46775)
-      '@ember-data/model': 5.3.12(51f26de9701a8b5a9e8c0d79727d1af5)
+      '@ember-data/model': 5.4.1(51f26de9701a8b5a9e8c0d79727d1af5)
       '@ember-data/serializer': 5.4.1(c8dffff18bdbe8937bc5f479f3b46775)
       '@ember-data/store': 5.4.1(0927f0f3c47b1dceb5b2dd3944c59503)
     transitivePeerDependencies:
