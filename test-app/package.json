@@ -37,7 +37,7 @@
     "@ember-data/graph": "~5.4.1",
     "@ember-data/json-api": "~5.4.1",
     "@ember-data/legacy-compat": "~5.4.1",
-    "@ember-data/model": "~5.3.12",
+    "@ember-data/model": "~5.4.1",
     "@ember-data/request": "~5.4.1",
     "@ember-data/request-utils": "~5.4.1",
     "@ember-data/serializer": "~5.4.1",
