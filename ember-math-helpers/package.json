@@ -71,7 +71,7 @@
     "babel-plugin-ember-template-compilation": "^2.2.5",
     "concurrently": "^9.0.1",
     "ember-source": "^6.3.0",
-    "ember-template-lint": "^7.0.7",
+    "ember-template-lint": "^7.0.8",
     "eslint": "^9.17.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-ember": "^12.3.3",
