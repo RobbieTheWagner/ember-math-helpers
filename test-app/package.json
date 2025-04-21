@@ -96,7 +96,7 @@
     "ember-template-imports": "^4.3.0",
     "ember-template-lint": "^7.0.8",
     "ember-try": "^4.0.0",
-    "eslint": "^9.23.0",
+    "eslint": "^9.25.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-ember": "^12.5.0",
     "eslint-plugin-n": "^17.17.0",
