@@ -58,8 +58,8 @@ importers:
         specifier: ^8.0.1
         version: 8.0.1(@glint/template@1.5.2)(rollup@4.40.0)
       '@eslint/js':
-        specifier: ^9.25.0
-        version: 9.25.0
+        specifier: ^9.25.1
+        version: 9.25.1
       '@glint/core':
         specifier: ^1.5.2
         version: 1.5.2(typescript@5.8.3)
@@ -203,8 +203,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0(37d587bb9a4a0e3d6a5408ab0b4481f4)
       '@eslint/js':
-        specifier: ^9.25.0
-        version: 9.25.0
+        specifier: ^9.25.1
+        version: 9.25.1
       '@glimmer/component':
         specifier: ^2.0.0
         version: 2.0.0
