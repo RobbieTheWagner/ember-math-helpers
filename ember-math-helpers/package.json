@@ -55,7 +55,7 @@
     "decorator-transforms": "^2.2.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
+    "@babel/core": "^7.27.1",
     "@babel/eslint-parser": "^7.25.1",
     "@babel/plugin-transform-typescript": "^7.25.2",
     "@babel/runtime": "^7.25.6",
