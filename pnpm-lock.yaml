@@ -106,8 +106,8 @@ importers:
         specifier: ^2.31.0
         version: 2.31.0(019e73ce974ecea0776a36332408aef8)
       eslint-plugin-n:
-        specifier: ^17.15.1
-        version: 17.17.0(eslint@9.26.0)
+        specifier: ^17.18.0
+        version: 17.18.0(eslint@9.26.0)
       globals:
         specifier: ^16.1.0
         version: 16.1.0
@@ -344,8 +344,8 @@ importers:
         specifier: ^12.5.0
         version: 12.5.0(20fbfb6a27bcf6aaedd14efe59b13334)
       eslint-plugin-n:
-        specifier: ^17.17.0
-        version: 17.17.0(eslint@9.26.0)
+        specifier: ^17.18.0
+        version: 17.18.0(eslint@9.26.0)
       eslint-plugin-qunit:
         specifier: ^8.1.2
         version: 8.1.2(eslint@9.26.0)
@@ -1830,12 +1830,6 @@ packages:
     peerDependencies:
       '@embroider/core': ^3.5.2
       webpack: ^5.0.0
-
-  '@eslint-community/eslint-utils@4.5.1':
-    resolution: {integrity: sha512-soEIOALTfTK6EjmKMMoLugwaP0rzkad90iIWd1hMO9ARkSAyjfMfkRRhLvD5qH7vvM0Cg72pieUfR6yh6XxC4w==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    peerDependencies:
-      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
   '@eslint-community/eslint-utils@4.7.0':
     resolution: {integrity: sha512-dyybb3AcajC7uha6CvhdVRJqaKyn7w2YKqKyAN37NKYgZT36w+iRb0Dymmc5qEJ549c/S31cMMSFd75bteCpCw==}
@@ -5516,8 +5510,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-n@17.17.0:
-    resolution: {integrity: sha512-2VvPK7Mo73z1rDFb6pTvkH6kFibAmnTubFq5l83vePxu0WiY1s0LOtj2WHb6Sa40R3w4mnh8GFYbHBQyMlotKw==}
+  eslint-plugin-n@17.18.0:
+    resolution: {integrity: sha512-hvZ/HusueqTJ7VDLoCpjN0hx4N4+jHIWTXD4TMLHy9F23XkDagR9v+xQWRWR57yY55GPF8NnD4ox9iGTxirY8A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -12370,11 +12364,6 @@ snapshots:
       - canvas
       - utf-8-validate
 
-  '@eslint-community/eslint-utils@4.5.1(eslint@9.26.0)':
-    dependencies:
-      eslint: 9.26.0
-      eslint-visitor-keys: 3.4.3
-
   '@eslint-community/eslint-utils@4.7.0(eslint@9.26.0)':
     dependencies:
       eslint: 9.26.0
@@ -17762,9 +17751,9 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-n@17.17.0(eslint@9.26.0):
+  eslint-plugin-n@17.18.0(eslint@9.26.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.5.1(eslint@9.26.0)
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.26.0)
       enhanced-resolve: 5.18.1
       eslint: 9.26.0
       eslint-plugin-es-x: 7.8.0(eslint@9.26.0)
