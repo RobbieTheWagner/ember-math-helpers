@@ -170,8 +170,8 @@ importers:
         specifier: ~5.4.1
         version: 5.4.1(63bb5ddc5295db46dacd5cfe242041d7)
       '@ember-data/serializer':
-        specifier: ~5.4.1
-        version: 5.4.1(fc2e82017cf3c8c3b1c280a79feac07f)
+        specifier: ~5.5.0
+        version: 5.5.0(fc2e82017cf3c8c3b1c280a79feac07f)
       '@ember-data/store':
         specifier: ~5.5.0
         version: 5.5.0(c5fceb226a0d0043f6009e2ed7469f13)
@@ -249,7 +249,7 @@ importers:
         version: 6.3.0(2b11abe064abe7604e4e218a4dd18eb2)
       ember-cli-addon-docs:
         specifier: ^8.0.8
-        version: 8.0.8(3923963ed2c164c15741011a1b665503)
+        version: 8.0.8(c1d6944578e3c5b38a0a584388bb8efe)
       ember-cli-addon-docs-yuidoc:
         specifier: ^1.1.0
         version: 1.1.0
@@ -1681,16 +1681,6 @@ packages:
 
   '@ember-data/rfc395-data@0.0.4':
     resolution: {integrity: sha512-tGRdvgC9/QMQSuSuJV45xoyhI0Pzjm7A9o/MVVA3HakXIImJbbzx/k/6dO9CUEQXIyS2y0fW6C1XaYOG7rY0FQ==}
-
-  '@ember-data/serializer@5.4.1':
-    resolution: {integrity: sha512-oNkBlRAo5/OE5SfrSglGb+bFnFDGpE51oEINtl5tnrdg5skDlir93AI2GkRFaCVlv4+GB8oIzkJxtbSAAr9PuQ==}
-    engines: {node: '>= 18.20.8'}
-    peerDependencies:
-      '@ember-data/legacy-compat': 5.4.1
-      '@ember-data/request-utils': 5.4.1
-      '@ember-data/store': 5.4.1
-      '@warp-drive/core-types': 5.4.1
-      ember-source: 3.28.12 || ^4.0.4 || ^5.0.0 || ^6.0.0
 
   '@ember-data/serializer@5.5.0':
     resolution: {integrity: sha512-rrbJzcruDni3dShluGjxFbbKfARMTJWAPN17HFrVfnrDHUAbXWXpQYofpAI/FPabEir3/1SKQHWds/ZO5TZstw==}
@@ -12094,14 +12084,14 @@ snapshots:
 
   '@ember-data/rfc395-data@0.0.4': {}
 
-  '@ember-data/serializer@5.4.1(fc2e82017cf3c8c3b1c280a79feac07f)':
+  '@ember-data/serializer@5.5.0(0294ac7ca429aebfbb5ebdc6ff9148ef)':
     dependencies:
-      '@ember-data/legacy-compat': 5.4.1(421b0a921d818efe0b75ef698d4443c6)
-      '@ember-data/request-utils': 5.4.1(63bb5ddc5295db46dacd5cfe242041d7)
+      '@ember-data/legacy-compat': 5.5.0(858fa0eb9369fe083dcc7c5eee7b390d)
+      '@ember-data/request-utils': 5.5.0(93c12dfe9516e01406bcfbd986cfa455)
       '@ember-data/store': 5.5.0(c5fceb226a0d0043f6009e2ed7469f13)
       '@ember/edition-utils': 1.2.0
       '@embroider/macros': 1.17.3(@glint/template@1.5.2)
-      '@warp-drive/build-config': 5.4.1(@glint/template@1.5.2)
+      '@warp-drive/build-config': 5.5.0(@glint/template@1.5.2)
       '@warp-drive/core-types': 5.5.0(@glint/template@1.5.2)
       ember-cli-path-utils: 1.0.0
       ember-cli-string-utils: 1.1.0
@@ -12111,10 +12101,10 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  '@ember-data/serializer@5.5.0(0294ac7ca429aebfbb5ebdc6ff9148ef)':
+  '@ember-data/serializer@5.5.0(fc2e82017cf3c8c3b1c280a79feac07f)':
     dependencies:
-      '@ember-data/legacy-compat': 5.5.0(858fa0eb9369fe083dcc7c5eee7b390d)
-      '@ember-data/request-utils': 5.5.0(93c12dfe9516e01406bcfbd986cfa455)
+      '@ember-data/legacy-compat': 5.4.1(421b0a921d818efe0b75ef698d4443c6)
+      '@ember-data/request-utils': 5.4.1(63bb5ddc5295db46dacd5cfe242041d7)
       '@ember-data/store': 5.5.0(c5fceb226a0d0043f6009e2ed7469f13)
       '@ember/edition-utils': 1.2.0
       '@embroider/macros': 1.17.3(@glint/template@1.5.2)
@@ -16577,7 +16567,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli-addon-docs@8.0.8(3923963ed2c164c15741011a1b665503):
+  ember-cli-addon-docs@8.0.8(c1d6944578e3c5b38a0a584388bb8efe):
     dependencies:
       '@csstools/postcss-sass': 5.1.1(postcss@8.4.49)
       '@ember/render-modifiers': 2.1.0(67b7172e198a53a17dba31fe1f9b7032)
@@ -16651,7 +16641,7 @@ snapshots:
     optionalDependencies:
       '@ember-data/adapter': 5.4.1(fc2e82017cf3c8c3b1c280a79feac07f)
       '@ember-data/model': 5.5.0(40187f6d27125f93de15dbc5d10ff22c)
-      '@ember-data/serializer': 5.4.1(fc2e82017cf3c8c3b1c280a79feac07f)
+      '@ember-data/serializer': 5.5.0(fc2e82017cf3c8c3b1c280a79feac07f)
       '@ember-data/store': 5.5.0(c5fceb226a0d0043f6009e2ed7469f13)
     transitivePeerDependencies:
       - '@babel/core'
