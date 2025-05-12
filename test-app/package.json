@@ -36,7 +36,7 @@
     "@ember-data/adapter": "~5.4.1",
     "@ember-data/graph": "~5.5.0",
     "@ember-data/json-api": "~5.5.0",
-    "@ember-data/legacy-compat": "~5.4.1",
+    "@ember-data/legacy-compat": "~5.5.0",
     "@ember-data/model": "~5.5.0",
     "@ember-data/request": "~5.5.0",
     "@ember-data/request-utils": "~5.4.1",
