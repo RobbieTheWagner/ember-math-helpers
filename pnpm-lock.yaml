@@ -311,8 +311,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.1(c74a9e52ce1ef5cbfa31d9959d9dadca)
       ember-qunit:
-        specifier: ^9.0.1
-        version: 9.0.2(881dd69fae86bbf6d4e7b185287fed60)
+        specifier: ^9.0.3
+        version: 9.0.3(1a0405ca57299d8a83c5dea2644c40ec)
       ember-repl:
         specifier: ^6.0.0
         version: 6.0.0(c82e7259cbe2bd5683d6dddc391301bb)
@@ -5216,11 +5216,10 @@ packages:
     peerDependencies:
       ember-source: '>= 4.2.0'
 
-  ember-qunit@9.0.2:
-    resolution: {integrity: sha512-vAuumvTYgfFpP0LgK1uw2vBEnD7bv1JYh0JUwkFfBiAkCGV7HkjVWNcgQ2agwarfzxLgEaC0hWlOn9adwJmlNg==}
+  ember-qunit@9.0.3:
+    resolution: {integrity: sha512-t+FD5/EWAR3WvGVj1etblFJJ6CaJqddDxusNcYYFZmW7zrQpCnQ9ziwpXM5/sw1sWabkhJZgYPXCn8bDRRhOfg==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
-      ember-source: '>=4.0.0'
       qunit: ^2.13.0
 
   ember-repl@6.0.0:
@@ -17230,12 +17229,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-qunit@9.0.2(881dd69fae86bbf6d4e7b185287fed60):
+  ember-qunit@9.0.3(1a0405ca57299d8a83c5dea2644c40ec):
     dependencies:
       '@ember/test-helpers': 5.2.2(b191353dce08279c398064bec3978083)
       '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.17.3(@glint/template@1.5.2)
-      ember-source: 6.4.0(@glimmer/component@2.0.0)(rsvp@4.8.5)
       qunit: 2.24.1
       qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
