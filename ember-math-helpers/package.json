@@ -86,9 +86,6 @@
     "typescript-eslint": "^8.32.1",
     "webpack": "^5.99.8"
   },
-  "peerDependencies": {
-    "ember-source": ">= 4.12.0"
-  },
   "engines": {
     "node": ">= 18"
   },
