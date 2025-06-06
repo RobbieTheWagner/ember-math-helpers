@@ -79,7 +79,7 @@
     "eslint-plugin-n": "^17.19.0",
     "globals": "^16.2.0",
     "prettier": "^3.4.2",
-    "prettier-plugin-ember-template-tag": "^2.0.4",
+    "prettier-plugin-ember-template-tag": "^2.0.6",
     "rollup": "^4.41.1",
     "rollup-plugin-copy": "^3.5.0",
     "typescript": "~5.8.3",
