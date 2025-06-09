@@ -91,8 +91,8 @@ importers:
         specifier: ^6.4.0
         version: 6.4.0(@glimmer/component@2.0.0)(rsvp@4.8.5)
       ember-template-lint:
-        specifier: ^7.8.1
-        version: 7.8.1
+        specifier: ^7.9.0
+        version: 7.9.0
       eslint:
         specifier: ^9.28.0
         version: 9.28.0
@@ -329,8 +329,8 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0
       ember-template-lint:
-        specifier: ^7.8.1
-        version: 7.8.1
+        specifier: ^7.9.0
+        version: 7.9.0
       ember-try:
         specifier: ^4.0.0
         version: 4.0.0(encoding@0.1.13)
@@ -2741,6 +2741,9 @@ packages:
 
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
+
+  '@types/estree@1.0.8':
+    resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
   '@types/express-serve-static-core@4.19.6':
     resolution: {integrity: sha512-N4LZ2xG7DatVqhCZzOGb1Yi5lMbXSZcmdLDe9EzSndPV2HpWYWzRbaerl2n27irrm94EPpprqa8KpskPT085+A==}
@@ -5249,8 +5252,8 @@ packages:
     resolution: {integrity: sha512-jZ5D6KLKU8up/AynZltmKh4lkXBPgTGSPgomprI/55XvIVqn42UNUpEz7ra/mO3QiGODDZOUesbggPe49i38sQ==}
     engines: {node: 16.* || >= 18}
 
-  ember-template-lint@7.8.1:
-    resolution: {integrity: sha512-SFVTR6YdxvldbBL3ArphAbDhYOXyD8Tt9rTKEWKYpQTilq7Hl9mTrKP59q3GOcnDaR/rNk0cg4rJHYAg6/SCGw==}
+  ember-template-lint@7.9.0:
+    resolution: {integrity: sha512-J2/d9S5mnNVoE2ZjWmbeCd3Dk6y0e5DyK4/z4BoY8XlyBkkA1Jg4wttlN15Jd2dQhPQZK7KMMLj9ZxLY4U7jZQ==}
     engines: {node: ^18.18.0 || >= 20.9.0}
     hasBin: true
 
@@ -13209,7 +13212,7 @@ snapshots:
 
   '@types/acorn@4.0.6':
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
 
   '@types/babel__code-frame@7.0.6': {}
 
@@ -13326,7 +13329,7 @@ snapshots:
 
   '@types/eslint@8.56.12':
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       '@types/json-schema': 7.0.15
 
   '@types/eslint@9.6.1':
@@ -13339,6 +13342,8 @@ snapshots:
       '@types/eslint': 9.6.1
 
   '@types/estree@1.0.7': {}
+
+  '@types/estree@1.0.8': {}
 
   '@types/express-serve-static-core@4.19.6':
     dependencies:
@@ -17189,7 +17194,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-template-lint@7.8.1:
+  ember-template-lint@7.9.0:
     dependencies:
       '@lint-todo/utils': 13.1.1
       content-tag: 3.1.3
@@ -19059,7 +19064,7 @@ snapshots:
 
   is-reference@1.2.1:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
 
   is-regex@1.2.1:
     dependencies:
