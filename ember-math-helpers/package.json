@@ -83,7 +83,7 @@
     "rollup": "^4.42.0",
     "rollup-plugin-copy": "^3.5.0",
     "typescript": "~5.8.3",
-    "typescript-eslint": "^8.33.1",
+    "typescript-eslint": "^8.34.0",
     "webpack": "^5.99.9"
   },
   "peerDependencies": {
