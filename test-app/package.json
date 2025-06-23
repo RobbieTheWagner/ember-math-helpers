@@ -104,7 +104,7 @@
     "globals": "^16.2.0",
     "loader.js": "^4.7.0",
     "pnpm-sync-dependencies-meta-injected": "^0.0.14",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "prettier-plugin-ember-template-tag": "^2.0.6",
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
