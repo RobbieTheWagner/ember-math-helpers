@@ -58,8 +58,8 @@ importers:
         specifier: ^8.1.0
         version: 8.1.0(@glint/template@1.5.2)(rollup@4.44.1)
       '@eslint/js':
-        specifier: ^9.29.0
-        version: 9.29.0
+        specifier: ^9.30.0
+        version: 9.30.0
       '@glint/core':
         specifier: ^1.5.2
         version: 1.5.2(typescript@5.8.3)
@@ -203,8 +203,8 @@ importers:
         specifier: ^4.1.1
         version: 4.1.1(3e90b161224581053b347a4e0609a9db)
       '@eslint/js':
-        specifier: ^9.29.0
-        version: 9.29.0
+        specifier: ^9.30.0
+        version: 9.30.0
       '@glimmer/component':
         specifier: ^2.0.0
         version: 2.0.0
@@ -1866,6 +1866,10 @@ packages:
 
   '@eslint/js@9.29.0':
     resolution: {integrity: sha512-3PIF4cBw/y+1u2EazflInpV+lYsSG0aByVIQzAgb1m1MhHFSbqTyNqtBKHgWf/9Ykud+DhILS9EGkmekVhbKoQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@eslint/js@9.30.0':
+    resolution: {integrity: sha512-Wzw3wQwPvc9sHM+NjakWTcPx11mbZyiYHuwWa/QfZ7cIRX7WK54PSk7bdyXDaoaopUcMatv1zaQvOAAO8hCdww==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/object-schema@2.1.6':
@@ -12408,6 +12412,8 @@ snapshots:
       - supports-color
 
   '@eslint/js@9.29.0': {}
+
+  '@eslint/js@9.30.0': {}
 
   '@eslint/object-schema@2.1.6': {}
 
