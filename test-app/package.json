@@ -101,7 +101,7 @@
     "eslint-plugin-ember": "^12.5.0",
     "eslint-plugin-n": "^17.20.0",
     "eslint-plugin-qunit": "^8.2.2",
-    "globals": "^16.2.0",
+    "globals": "^16.3.0",
     "loader.js": "^4.7.0",
     "pnpm-sync-dependencies-meta-injected": "^0.0.14",
     "prettier": "^3.6.2",
