@@ -170,8 +170,8 @@ importers:
         specifier: ~5.5.0
         version: 5.5.0(879d6d7f765be120e2f250ddbd1adf61)
       '@ember-data/serializer':
-        specifier: ~5.5.0
-        version: 5.5.0(12f698357ab14312584deac1d6e953b9)
+        specifier: ~5.6.0
+        version: 5.6.0(@glint/template@1.5.2)
       '@ember-data/store':
         specifier: ~5.5.0
         version: 5.5.0(c489fa6446bc4e522edf7a234450f8c6)
@@ -249,7 +249,7 @@ importers:
         version: 6.3.0(2b11abe064abe7604e4e218a4dd18eb2)
       ember-cli-addon-docs:
         specifier: ^8.0.8
-        version: 8.0.8(39bcaccea5a724a956ede3e81452c33f)
+        version: 8.0.8(0e927b55e70e92372a92a3ea33093359)
       ember-cli-addon-docs-yuidoc:
         specifier: ^1.1.0
         version: 1.1.0
@@ -1634,6 +1634,9 @@ packages:
       '@ember-data/store': 5.5.0
       '@warp-drive/core-types': 5.5.0
       ember-source: 3.28.12 || ^4.0.4 || ^5.0.0 || ^6.0.0
+
+  '@ember-data/serializer@5.6.0':
+    resolution: {integrity: sha512-/QcNzZeZ+9Hg5QwKyHfDBEgkokjsIpa8rcXg1Ft4NIF/XvQH/ggMnfIJtLVIwjE2m0JpsbZURJf0lafzxdjDpg==}
 
   '@ember-data/store@5.5.0':
     resolution: {integrity: sha512-4Oa3ObaqkSZ0ESRuLcITn1fmXdhkbcsvfFskH3sh4VmQW1kylTgS7qlU5n2nJE7GqMw43IM2ta/s1F0DFKC9Vw==}
@@ -11980,6 +11983,20 @@ snapshots:
       - '@glint/template'
       - supports-color
 
+  '@ember-data/serializer@5.6.0(@glint/template@1.5.2)':
+    dependencies:
+      '@ember/edition-utils': 1.2.0
+      '@embroider/macros': 1.18.0(@glint/template@1.5.2)
+      '@warp-drive/core': 5.6.0(@glint/template@1.5.2)
+      '@warp-drive/legacy': 5.6.0(5c6bb41de01e9669a5a5a9c73e938ad4)
+      '@warp-drive/utilities': 5.6.0(990fb29149e2c70052ce1fa186b4a67b)
+      ember-cli-path-utils: 1.0.0
+      ember-cli-string-utils: 1.1.0
+      ember-cli-test-info: 1.0.0
+    transitivePeerDependencies:
+      - '@glint/template'
+      - supports-color
+
   '@ember-data/store@5.5.0(c489fa6446bc4e522edf7a234450f8c6)':
     dependencies:
       '@ember-data/request': 5.6.0(@glint/template@1.5.2)
@@ -16526,7 +16543,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli-addon-docs@8.0.8(39bcaccea5a724a956ede3e81452c33f):
+  ember-cli-addon-docs@8.0.8(0e927b55e70e92372a92a3ea33093359):
     dependencies:
       '@csstools/postcss-sass': 5.1.1(postcss@8.4.49)
       '@ember/render-modifiers': 2.1.0(e89f03d6726cf8811e6c903ccc5e3212)
@@ -16600,7 +16617,7 @@ snapshots:
     optionalDependencies:
       '@ember-data/adapter': 5.5.0(12f698357ab14312584deac1d6e953b9)
       '@ember-data/model': 5.6.0(@glint/template@1.5.2)
-      '@ember-data/serializer': 5.5.0(12f698357ab14312584deac1d6e953b9)
+      '@ember-data/serializer': 5.6.0(@glint/template@1.5.2)
       '@ember-data/store': 5.5.0(c489fa6446bc4e522edf7a234450f8c6)
     transitivePeerDependencies:
       - '@babel/core'
@@ -16980,7 +16997,7 @@ snapshots:
       fs-extra: 9.1.0
       resolve: 1.22.10
       rsvp: 4.8.5
-      semver: 7.7.2
+      semver: 7.6.3
       stagehand: 1.0.1
       walk-sync: 2.2.0
     transitivePeerDependencies:
