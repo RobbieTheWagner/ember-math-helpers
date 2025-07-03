@@ -155,8 +155,8 @@ importers:
         specifier: ~5.6.0
         version: 5.6.0(@glint/template@1.5.2)
       '@ember-data/json-api':
-        specifier: ~5.5.0
-        version: 5.5.0(fba6b88168aae05525b6fec1f0751a27)
+        specifier: ~5.6.0
+        version: 5.6.0(@glint/template@1.5.2)
       '@ember-data/legacy-compat':
         specifier: ~5.6.0
         version: 5.6.0(@glint/template@1.5.2)
@@ -1534,15 +1534,6 @@ packages:
 
   '@ember-data/graph@5.6.0':
     resolution: {integrity: sha512-hPaaFthx3NwrBXOOUHZCHS+YG7zxnYTU9ao7LXWLEKPKKRLl1sF9LWLFqNy0vTeucjmCeKyIAqP20pQKqk+uMA==}
-
-  '@ember-data/json-api@5.5.0':
-    resolution: {integrity: sha512-aBXnYPRLYkU1JKxLyzbUQXva7suZ7o/New7QMC/LWi408lbrqPYgKENW72Nd8XmWVvRubBxMEJd4hbPcsQ+zdQ==}
-    engines: {node: '>= 18.20.8'}
-    peerDependencies:
-      '@ember-data/graph': 5.5.0
-      '@ember-data/request-utils': 5.5.0
-      '@ember-data/store': 5.5.0
-      '@warp-drive/core-types': 5.5.0
 
   '@ember-data/json-api@5.6.0':
     resolution: {integrity: sha512-puSIFW1X6siqE8/Az4mtUWRz9IX3GgfSHjJwfTeFzZ+QQyYQBavPogFNKHsG+SCgiUVxus1MiLqLVUs8pXJ96Q==}
@@ -11729,20 +11720,6 @@ snapshots:
     dependencies:
       '@embroider/macros': 1.18.0(@glint/template@1.5.2)
       '@warp-drive/core': 5.6.0(@glint/template@1.5.2)
-    transitivePeerDependencies:
-      - '@glint/template'
-      - supports-color
-
-  '@ember-data/json-api@5.5.0(fba6b88168aae05525b6fec1f0751a27)':
-    dependencies:
-      '@ember-data/graph': 5.6.0(@glint/template@1.5.2)
-      '@ember-data/request-utils': 5.6.0(@glint/template@1.5.2)
-      '@ember-data/store': 5.6.0(814279ba0d07deb6b327258a35ec6771)
-      '@embroider/macros': 1.18.0(@glint/template@1.5.2)
-      '@warp-drive/build-config': 5.5.0(@glint/template@1.5.2)
-      '@warp-drive/core-types': 5.5.0(@glint/template@1.5.2)
-      fuse.js: 7.1.0
-      json-to-ast: 2.1.0
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
