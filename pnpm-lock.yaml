@@ -281,8 +281,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
       ember-cli-deprecation-workflow:
-        specifier: ^3.3.0
-        version: 3.3.0(7b26c7e637ccb8f4d15c9bda4ef68a3d)
+        specifier: ^3.4.0
+        version: 3.4.0(7b26c7e637ccb8f4d15c9bda4ef68a3d)
       ember-cli-htmlbars:
         specifier: ^6.3.0
         version: 6.3.0
@@ -4958,11 +4958,11 @@ packages:
     resolution: {integrity: sha512-x6vtuxruExD66qo/OvNldGbxZ3NTaeRSdL63Q9clJ/+JspLXeHtKxl5dDMqRNvl8sItVrZJqq9GYMJfPsg5SWA==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  ember-cli-deprecation-workflow@3.3.0:
-    resolution: {integrity: sha512-AZTOv+xftPXNov+X7k/JZFMd5/Suzkuvg5Zc1W3MoJb+kjIwW/3sieBOXEbt7aMq9Px4ixb9FSrFPNlzggV4qA==}
+  ember-cli-deprecation-workflow@3.4.0:
+    resolution: {integrity: sha512-Ksrmib4mjD4xa0dqFgxJLBwkSp9EVYH6jSqe2NpODlBKEAZhsVzQj5wKPnC1dXfK3Erq/r1Fh3q4g46FZiCUiw==}
     engines: {node: '>= 18'}
     peerDependencies:
-      ember-source: '>= 4.0.0'
+      ember-source: '>= 3.28.0'
 
   ember-cli-get-component-path-option@1.0.0:
     resolution: {integrity: sha512-k47TDwcJ2zPideBCZE8sCiShSxQSpebY2BHcX2DdipMmBox5gsfyVrbKJWIHeSTTKyEUgmBIvQkqTOozEziCZA==}
@@ -16518,7 +16518,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli-deprecation-workflow@3.3.0(7b26c7e637ccb8f4d15c9bda4ef68a3d):
+  ember-cli-deprecation-workflow@3.4.0(7b26c7e637ccb8f4d15c9bda4ef68a3d):
     dependencies:
       '@babel/core': 7.28.0(supports-color@8.1.1)
       ember-cli-babel: 8.2.0(@babel/core@7.28.0)
