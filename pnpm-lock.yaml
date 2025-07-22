@@ -76,8 +76,8 @@ importers:
         specifier: 6.0.4
         version: 6.0.4(@babel/core@7.28.0)(rollup@4.45.1)
       '@tsconfig/ember':
-        specifier: ^3.0.10
-        version: 3.0.10
+        specifier: ^3.0.11
+        version: 3.0.11
       '@types/rsvp':
         specifier: ^4.0.9
         version: 4.0.9
@@ -221,8 +221,8 @@ importers:
         specifier: ^1.5.2
         version: 1.5.2
       '@tsconfig/ember':
-        specifier: ^3.0.10
-        version: 3.0.10
+        specifier: ^3.0.11
+        version: 3.0.11
       '@types/eslint__js':
         specifier: ^9.14.0
         version: 9.14.0
@@ -2588,8 +2588,8 @@ packages:
     resolution: {integrity: sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==}
     engines: {node: '>= 6'}
 
-  '@tsconfig/ember@3.0.10':
-    resolution: {integrity: sha512-qFIlJIMsn25frlp2WOtX/OxNxfsYeqM7OdSXB88vgvRqU9ElV3KpQc2EhmchoKpHoKB3oiLPIJNRuf5xcxjamw==}
+  '@tsconfig/ember@3.0.11':
+    resolution: {integrity: sha512-c9uaKBN4KxtdT/UNPPxoWghyoDsTRHzYb53Z5Fv9eum+4cok0U+hYwyKNjvCxkBjEPECS8QAyp8nGAhRifZnBQ==}
 
   '@types/acorn@4.0.6':
     resolution: {integrity: sha512-veQTnWP+1D/xbxVrPC3zHnCZRjSrKfhbMUlEA43iMZLu7EsnTtkJklIuwrCPbOi8YkvDQAiW05VQQFvvz9oieQ==}
@@ -13163,7 +13163,7 @@ snapshots:
 
   '@tootallnate/once@1.1.2': {}
 
-  '@tsconfig/ember@3.0.10': {}
+  '@tsconfig/ember@3.0.11': {}
 
   '@types/acorn@4.0.6':
     dependencies:
