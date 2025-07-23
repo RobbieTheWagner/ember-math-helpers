@@ -3,11 +3,11 @@
   "projectName": "ember-math-helpers",
   "packages": [
     {
-      "name": "@embroider/addon-blueprint",
-      "version": "4.1.1",
+      "name": "@ember/addon-blueprint",
+      "version": "0.9.0",
       "blueprints": [
         {
-          "name": "@embroider/addon-blueprint",
+          "name": "@ember/addon-blueprint",
           "isBaseBlueprint": true,
           "options": [
             "--ci-provider=github",
