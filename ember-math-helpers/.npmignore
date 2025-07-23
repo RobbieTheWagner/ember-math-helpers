@@ -1,6 +1,0 @@
-dist/
-node_modules/
-.eslintcache
-
-# README is copied from monorepo root each build
-README.md

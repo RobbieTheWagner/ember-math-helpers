@@ -11,7 +11,7 @@
           "reason": "Appears in changelog section :boom: Breaking Change"
         }
       ],
-      "pkgJSONPath": "./ember-math-helpers/package.json"
+      "pkgJSONPath": "./package.json"
     }
   },
   "description": "## Release (2025-04-07)\n\n* ember-math-helpers 5.0.0 (major)\n\n#### :boom: Breaking Change\n* `ember-math-helpers`\n  * [#2053](https://github.com/RobbieTheWagner/ember-math-helpers/pull/2053) Drop support for Ember < 4.12 ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n\n#### Committers: 1\n- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n"
