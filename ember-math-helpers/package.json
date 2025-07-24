@@ -58,7 +58,7 @@
     "@babel/core": "^7.28.0",
     "@babel/eslint-parser": "^7.28.0",
     "@babel/plugin-transform-typescript": "^7.28.0",
-    "@babel/runtime": "^7.27.6",
+    "@babel/runtime": "^7.28.2",
     "@embroider/addon-dev": "^8.1.0",
     "@eslint/js": "^9.31.0",
     "@glint/core": "^1.5.2",
