@@ -72,7 +72,7 @@
     "concurrently": "^9.2.1",
     "ember-source": "^6.6.0",
     "ember-template-lint": "^7.9.3",
-    "eslint": "^9.33.0",
+    "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-ember": "^12.7.3",
     "eslint-plugin-import": "^2.32.0",
