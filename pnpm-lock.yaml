@@ -158,8 +158,8 @@ importers:
         specifier: ~5.6.0
         version: 5.6.0(@glint/template@1.5.2)
       '@ember-data/legacy-compat':
-        specifier: ~5.6.0
-        version: 5.6.0(@glint/template@1.5.2)
+        specifier: ~5.7.0
+        version: 5.7.0(@glint/template@1.5.2)
       '@ember-data/model':
         specifier: ~5.7.0
         version: 5.7.0(@glint/template@1.5.2)
@@ -1599,6 +1599,9 @@ packages:
 
   '@ember-data/legacy-compat@5.6.0':
     resolution: {integrity: sha512-l2NKJ7Uux41Tp2pfn6xEJOj+WkeJX58Q4jSQCzE2YpLot0FuiC3vow9DLUpIYgd0YDPz9oTwYZM67ORPxlA51A==}
+
+  '@ember-data/legacy-compat@5.7.0':
+    resolution: {integrity: sha512-dDkKd9xRUAUbZ6WHXtETRrroAVFQy/d1xWyhvoUP4Yg8JzLFd8n0tqzGhD3ehXVymWbtxU3fKHkiPZljEBGILA==}
 
   '@ember-data/model@5.6.0':
     resolution: {integrity: sha512-Zn4mAGUSKEKFw23SE63VgdP9w+UBw1lUTTp2AId4cblR/+ZJlxAodZKy0zI9dk4QHSn4zsT9BHMyK7V6U+ZmhA==}
@@ -11935,6 +11938,16 @@ snapshots:
       '@warp-drive/core': 5.6.0(@glint/template@1.5.2)
       '@warp-drive/legacy': 5.6.0(5c6bb41de01e9669a5a5a9c73e938ad4)
       '@warp-drive/utilities': 5.6.0(990fb29149e2c70052ce1fa186b4a67b)
+    transitivePeerDependencies:
+      - '@glint/template'
+      - supports-color
+
+  '@ember-data/legacy-compat@5.7.0(@glint/template@1.5.2)':
+    dependencies:
+      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@warp-drive/core': 5.7.0(@glint/template@1.5.2)
+      '@warp-drive/legacy': 5.7.0(b11cdd2db80a88cf5dd7dde3a27b681f)
+      '@warp-drive/utilities': 5.7.0(28af36c0c1e0c93510b1330e310c6c77)
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
