@@ -152,8 +152,8 @@ importers:
         specifier: ~5.6.0
         version: 5.6.0(@glint/template@1.5.2)
       '@ember-data/graph':
-        specifier: ~5.6.0
-        version: 5.6.0(@glint/template@1.5.2)
+        specifier: ~5.8.0
+        version: 5.8.0(731de5cfbb3f32d50726bf63427bba20)
       '@ember-data/json-api':
         specifier: ~5.8.0
         version: 5.8.0(731de5cfbb3f32d50726bf63427bba20)
@@ -1594,11 +1594,11 @@ packages:
       '@ember-data/store': 5.7.0
       '@warp-drive/core-types': 5.7.0
 
-  '@ember-data/graph@5.6.0':
-    resolution: {integrity: sha512-hPaaFthx3NwrBXOOUHZCHS+YG7zxnYTU9ao7LXWLEKPKKRLl1sF9LWLFqNy0vTeucjmCeKyIAqP20pQKqk+uMA==}
-
   '@ember-data/graph@5.7.0':
     resolution: {integrity: sha512-63ggMRciYvmQ8w2oZtGHVaaFhfO6J3JRmyOSl1SQNhmlOjBEOHoDSAJJCgoo+xXwAzmt92y05T7PYujC7C7ltA==}
+
+  '@ember-data/graph@5.8.0':
+    resolution: {integrity: sha512-p5A0AHtTbNvCLoKEIGfU4ex4jMIRhO0vMrsEy0wmJHLW6cosE4FQMEPUka/9v2HwJ+1N81T/cPTqS5h7Y+NFRw==}
 
   '@ember-data/json-api@5.7.0':
     resolution: {integrity: sha512-U+XC2yugLgRqehS8z2a1Z5aj0BhBwFwSQeJOvscoHbN+NjMbt5ixeA14S70oTOk0Umc+u0loHY+RhvqFuat6Wg==}
@@ -11980,19 +11980,20 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  '@ember-data/graph@5.6.0(@glint/template@1.5.2)':
-    dependencies:
-      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
-      '@warp-drive/core': 5.6.0(@glint/template@1.5.2)
-    transitivePeerDependencies:
-      - '@glint/template'
-      - supports-color
-
   '@ember-data/graph@5.7.0(@glint/template@1.5.2)':
     dependencies:
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       '@warp-drive/core': 5.7.0(@glint/template@1.5.2)
     transitivePeerDependencies:
+      - '@glint/template'
+      - supports-color
+
+  '@ember-data/graph@5.8.0(731de5cfbb3f32d50726bf63427bba20)':
+    dependencies:
+      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@warp-drive/core': 5.8.0(731de5cfbb3f32d50726bf63427bba20)
+    transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
