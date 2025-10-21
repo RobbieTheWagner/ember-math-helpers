@@ -61,7 +61,7 @@
     "@types/eslint__js": "^9.14.0",
     "@types/qunit": "^2.19.13",
     "@types/rsvp": "^4.0.9",
-    "@warp-drive/core-types": "~5.7.0",
+    "@warp-drive/core-types": "~5.8.0",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^9.2.1",
     "ember-auto-import": "^2.10.0",
