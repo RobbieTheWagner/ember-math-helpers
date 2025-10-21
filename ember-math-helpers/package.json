@@ -60,7 +60,7 @@
     "@babel/plugin-transform-typescript": "^7.28.0",
     "@babel/runtime": "^7.28.3",
     "@embroider/addon-dev": "^8.1.0",
-    "@eslint/js": "^9.34.0",
+    "@eslint/js": "^9.38.0",
     "@glint/core": "^1.5.2",
     "@glint/environment-ember-loose": "^1.5.2",
     "@glint/environment-ember-template-imports": "^1.5.2",
