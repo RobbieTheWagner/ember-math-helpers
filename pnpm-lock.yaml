@@ -233,8 +233,8 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9
       '@warp-drive/core-types':
-        specifier: ~5.7.0
-        version: 5.7.0(@glint/template@1.5.2)
+        specifier: ~5.8.0
+        version: 5.8.0(731de5cfbb3f32d50726bf63427bba20)
       broccoli-asset-rev:
         specifier: ^3.0.0
         version: 3.0.0
@@ -2950,14 +2950,23 @@ packages:
   '@warp-drive/build-config@5.7.0':
     resolution: {integrity: sha512-lCltr4xG9jQmBRlM8+gMJ06o3pnOHs7uDFdIX36dIczKCFjfTvaSVbYf+n/VLEAT4GyaMoQU11xkY1zHa5XucA==}
 
+  '@warp-drive/build-config@5.8.0':
+    resolution: {integrity: sha512-p0Cgf/9qO9Ocv33RbsHhKTyQpiw+8FKHFOSvruAUrjtZCXzniqfnzLDv12XtufV7HIKe2aN5HCip6r5Q+xk6fg==}
+
   '@warp-drive/core-types@5.7.0':
     resolution: {integrity: sha512-M+bM7IWJVWP3WaRllhII752Q5IAdUh74eiRzhINm8rOBvpGteUaxYgOABXIiYE4rMm8ukTKy08aNSALs+Y+15g==}
+
+  '@warp-drive/core-types@5.8.0':
+    resolution: {integrity: sha512-jJRDRcJBiIvI27HRq/E9PVsXEAay2iWU27AzQ5zsU6mugo0cCgIC7F0aPd1Wfjq81j6ooL/tIg05cJ9TZJ32kA==}
 
   '@warp-drive/core@5.6.0':
     resolution: {integrity: sha512-pUt2QEWzhMkBD3tzjpDmycNsVQsvUBXfQpIrIQ8K55BS1b5fXNKXc/srOi6XoSy+elh7V7sgjdEZLOWP3ttcRw==}
 
   '@warp-drive/core@5.7.0':
     resolution: {integrity: sha512-eaYcX5rtRQLWhU7b1RuSSri/jatHwZM09VPXxQgT9BnXlB5nbg008osdAQ/SwtArGLr0P6DeGiD1MazqSh1M2w==}
+
+  '@warp-drive/core@5.8.0':
+    resolution: {integrity: sha512-DkY8AjaeiMtijz9Ho1W3wKlaWGbhK7gOaOCXdRzCqNyKiwM+nOn2dkS/8uib5lpuv4m7QYgL2oF4uAWlINUFDA==}
 
   '@warp-drive/ember@5.7.0':
     resolution: {integrity: sha512-oCnEsphvDMEd9JfJzVTijg+qWQrQl5qNKEEzt5Mencp62pj3DSKFphsWsMRfSk7CedIN792NZDxxJHXqhwtBvA==}
@@ -3465,6 +3474,12 @@ packages:
   babel-plugin-debug-macros@0.3.4:
     resolution: {integrity: sha512-wfel/vb3pXfwIDZUrkoDrn5FHmlWI96PCJ3UCDv2a86poJ3EQrnArNW5KfHSVJ9IOgxHbo748cQt7sDU+0KCEw==}
     engines: {node: '>=6'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+
+  babel-plugin-debug-macros@2.0.0:
+    resolution: {integrity: sha512-7ZaLtXIY01PAPhLyjV3OACePnl+X5iQO7F4O/sOJHTfMf/36zyu14uVUxNiZmOUntYBsyT/VVplf1LrH6NcwvQ==}
+    engines: {node: '>=16'}
     peerDependencies:
       '@babel/core': ^7.0.0
 
@@ -8981,6 +8996,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.3:
+    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.19.0:
     resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
     engines: {node: '>= 0.8.0'}
@@ -12930,7 +12950,7 @@ snapshots:
   '@npmcli/fs@1.1.1':
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.7.2
+      semver: 7.7.3
 
   '@npmcli/git@6.0.3':
     dependencies:
@@ -13180,7 +13200,7 @@ snapshots:
       ramda: '@pnpm/ramda@0.28.1'
       right-pad: 1.0.1
       rxjs: 7.8.2
-      semver: 7.7.2
+      semver: 7.7.3
       stacktracey: 2.1.8
       string-length: 4.0.2
       strip-ansi: 6.0.1
@@ -13299,7 +13319,7 @@ snapshots:
       detect-libc: 2.0.3
       execa: safe-execa@0.1.2
       mem: 8.1.1
-      semver: 7.7.2
+      semver: 7.7.3
 
   '@pnpm/pnpmfile@5.0.7(@pnpm/logger@5.2.0)':
     dependencies:
@@ -13875,11 +13895,32 @@ snapshots:
       - '@glint/template'
       - supports-color
 
+  '@warp-drive/build-config@5.8.0(731de5cfbb3f32d50726bf63427bba20)':
+    dependencies:
+      '@embroider/addon-shim': 1.10.0
+      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      babel-import-util: 2.1.1
+      babel-plugin-debug-macros: 2.0.0(@babel/core@7.28.3)
+      semver: 7.7.3
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@glint/template'
+      - supports-color
+
   '@warp-drive/core-types@5.7.0(@glint/template@1.5.2)':
     dependencies:
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       '@warp-drive/core': 5.7.0(@glint/template@1.5.2)
     transitivePeerDependencies:
+      - '@glint/template'
+      - supports-color
+
+  '@warp-drive/core-types@5.8.0(731de5cfbb3f32d50726bf63427bba20)':
+    dependencies:
+      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@warp-drive/core': 5.8.0(731de5cfbb3f32d50726bf63427bba20)
+    transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
@@ -13896,6 +13937,15 @@ snapshots:
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       '@warp-drive/build-config': 5.7.0(@glint/template@1.5.2)
     transitivePeerDependencies:
+      - '@glint/template'
+      - supports-color
+
+  '@warp-drive/core@5.8.0(731de5cfbb3f32d50726bf63427bba20)':
+    dependencies:
+      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@warp-drive/build-config': 5.8.0(731de5cfbb3f32d50726bf63427bba20)
+    transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
@@ -14560,6 +14610,12 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.3(supports-color@8.1.1)
       semver: 5.7.2
+
+  babel-plugin-debug-macros@2.0.0(@babel/core@7.28.3):
+    dependencies:
+      '@babel/core': 7.28.3(supports-color@8.1.1)
+      babel-import-util: 2.1.1
+      semver: 7.7.3
 
   babel-plugin-ember-data-packages-polyfill@0.1.2:
     dependencies:
@@ -17019,7 +17075,7 @@ snapshots:
       fs-extra: 9.1.0
       resolve: 1.22.10
       rsvp: 4.8.5
-      semver: 7.6.3
+      semver: 7.7.3
       stagehand: 1.0.1
       walk-sync: 2.2.0
     transitivePeerDependencies:
@@ -20693,7 +20749,7 @@ snapshots:
 
   npm-install-checks@7.1.1:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
 
   npm-normalize-package-bin@4.0.0: {}
 
@@ -20709,7 +20765,7 @@ snapshots:
       npm-install-checks: 7.1.1
       npm-normalize-package-bin: 4.0.0
       npm-package-arg: 12.0.2
-      semver: 7.7.2
+      semver: 7.7.3
 
   npm-run-all@4.1.5:
     dependencies:
@@ -21972,6 +22028,8 @@ snapshots:
   semver@7.7.1: {}
 
   semver@7.7.2: {}
+
+  semver@7.7.3: {}
 
   send@0.19.0:
     dependencies:
