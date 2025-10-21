@@ -38,7 +38,7 @@
     "@ember-data/json-api": "~5.6.0",
     "@ember-data/legacy-compat": "~5.7.0",
     "@ember-data/model": "~5.7.0",
-    "@ember-data/request": "~5.6.0",
+    "@ember-data/request": "~5.8.0",
     "@ember-data/request-utils": "~5.7.0",
     "@ember-data/serializer": "~5.6.0",
     "@ember-data/store": "~5.6.0",
