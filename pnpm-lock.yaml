@@ -167,8 +167,8 @@ importers:
         specifier: ~5.8.0
         version: 5.8.0(339cdbc3394900937003a4b0ce07ee7b)
       '@ember-data/request-utils':
-        specifier: ~5.7.0
-        version: 5.7.0(@glint/template@1.5.2)
+        specifier: ~5.8.1
+        version: 5.8.1(339cdbc3394900937003a4b0ce07ee7b)
       '@ember-data/serializer':
         specifier: ~5.8.0
         version: 5.8.0(339cdbc3394900937003a4b0ce07ee7b)
@@ -1584,6 +1584,14 @@ packages:
 
   '@ember-data/request-utils@5.7.0':
     resolution: {integrity: sha512-P6Gh4cYhezcz8XkPC8hWAlu5+yDq0ysTwoBPgLWv5XqQpGBfgj5FRxD1L8LW2JcM44syHJWPYK+hTzRcnRQAUQ==}
+    peerDependencies:
+      ember-inflector: ^4.0.2 || ^5.0.0 || ^6.0.0
+    peerDependenciesMeta:
+      ember-inflector:
+        optional: true
+
+  '@ember-data/request-utils@5.8.1':
+    resolution: {integrity: sha512-xKSbQLFyq95EHePShtMJM0Cu3SibGyB8Eo0XuO74fTopMWD/xW29uY/bqBonQdaZnIonJwOKs36ztf7oSiRaZQ==}
     peerDependencies:
       ember-inflector: ^4.0.2 || ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
@@ -12447,6 +12455,16 @@ snapshots:
       - '@glint/template'
       - supports-color
 
+  '@ember-data/request-utils@5.8.1(339cdbc3394900937003a4b0ce07ee7b)':
+    dependencies:
+      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@warp-drive/core': 5.8.1(339cdbc3394900937003a4b0ce07ee7b)
+      '@warp-drive/utilities': 5.8.1(19a942552ac85506bf0e855d6fcf02f1)
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@glint/template'
+      - supports-color
+
   '@ember-data/request@5.7.0(@glint/template@1.5.2)':
     dependencies:
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
@@ -13420,7 +13438,7 @@ snapshots:
   '@npmcli/fs@1.1.1':
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.7.4
+      semver: 7.7.2
 
   '@npmcli/git@6.0.3':
     dependencies:
@@ -17646,7 +17664,7 @@ snapshots:
       fs-extra: 9.1.0
       resolve: 1.22.11
       rsvp: 4.8.5
-      semver: 7.7.4
+      semver: 7.7.3
       stagehand: 1.0.1
       walk-sync: 2.2.0
     transitivePeerDependencies:
