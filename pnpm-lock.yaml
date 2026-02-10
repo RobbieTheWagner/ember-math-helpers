@@ -106,8 +106,8 @@ importers:
         specifier: ^2.32.0
         version: 2.32.0(438d9ce730bf71cdcaed57735e15ead7)
       eslint-plugin-n:
-        specifier: ^17.21.3
-        version: 17.21.3(eslint@9.34.0)(typescript@5.9.2)
+        specifier: ^17.23.2
+        version: 17.23.2(eslint@9.34.0)(typescript@5.9.2)
       globals:
         specifier: ^16.3.0
         version: 16.3.0
@@ -344,8 +344,8 @@ importers:
         specifier: ^12.7.3
         version: 12.7.3(3a5d77386e4e5fbdc417769cb9e6bde6)
       eslint-plugin-n:
-        specifier: ^17.21.3
-        version: 17.21.3(eslint@9.34.0)(typescript@5.9.2)
+        specifier: ^17.23.2
+        version: 17.23.2(eslint@9.34.0)(typescript@5.9.2)
       eslint-plugin-qunit:
         specifier: ^8.2.5
         version: 8.2.5(eslint@9.34.0)
@@ -1828,8 +1828,18 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
+  '@eslint-community/eslint-utils@4.9.1':
+    resolution: {integrity: sha512-phrYmNiYppR7znFEdqgfWHXR6NCkZEK7hwWDHZUjit/2/U0r6XvkDl0SYnoM51Hq7FhCGdLDT6zxCCOY1hexsQ==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+
   '@eslint-community/regexpp@4.12.1':
     resolution: {integrity: sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==}
+    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
+
+  '@eslint-community/regexpp@4.12.2':
+    resolution: {integrity: sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
   '@eslint/config-array@0.21.0':
@@ -5464,10 +5474,6 @@ packages:
     resolution: {integrity: sha512-gmNvsYi9C8iErnZdVcJnvCpSKbWTt1E8+JZo8b+daLninywUWi5NQ5STSHZ9rFjFO7imNcvb8Pc5pe/wMR5xEw==}
     engines: {node: '>=10.2.0'}
 
-  enhanced-resolve@5.18.2:
-    resolution: {integrity: sha512-6Jw4sE1maoRJo3q8MsSIn2onJFbLTOjY9hlx4DZXmOKvLRd1Ok2kXmAGXaafL2+ijsJZ1ClYbl/pmqr9+k4iUQ==}
-    engines: {node: '>=10.13.0'}
-
   enhanced-resolve@5.19.0:
     resolution: {integrity: sha512-phv3E1Xl4tQOShqSte26C7Fl84EwUdZsyOuSSk9qtAGyyQs2s3jJzComh+Abf4g187lUUAvH+H26omrqia2aGg==}
     engines: {node: '>=10.13.0'}
@@ -5635,8 +5641,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-n@17.21.3:
-    resolution: {integrity: sha512-MtxYjDZhMQgsWRm/4xYLL0i2EhusWT7itDxlJ80l1NND2AL2Vi5Mvneqv/ikG9+zpran0VsVRXTEHrpLmUZRNw==}
+  eslint-plugin-n@17.23.2:
+    resolution: {integrity: sha512-RhWBeb7YVPmNa2eggvJooiuehdL76/bbfj/OJewyoGT80qn5PXdz8zMOTO6YHOsI7byPt7+Ighh/i/4a5/v7hw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -6169,8 +6175,8 @@ packages:
     resolution: {integrity: sha512-w9UMqWwJxHNOvoNzSJ2oPF5wvYcvP7jUvYzhp67yEhTi17ZDBBC1z9pTdGuzjD+EFIqLSYRweZjqfiPzQ06Ebg==}
     engines: {node: '>= 0.4'}
 
-  get-tsconfig@4.10.1:
-    resolution: {integrity: sha512-auHyJ4AgMz7vgS8Hp3N6HXSmlMdUyhSUrfBF16w153rxtLIEOE+HGqaBppczZvnHLqQJfiHotCYpNhl0lUROFQ==}
+  get-tsconfig@4.13.6:
+    resolution: {integrity: sha512-shZT/QMiSHc/YBLxxOkMtgSid5HFoauqCE3/exfsEcwg1WkeqjG+V40yBbBrsD+jW2HDXcs28xOfcbm2jI8Ddw==}
 
   get-value@2.0.6:
     resolution: {integrity: sha512-Ln0UQDlxH1BapMu3GPtf7CuYNwRZf2gwCuPqbyG6pB8WfmFpzqcy4xtAaAMUhnNqjMKTiCPZG2oMT3YSx8U2NA==}
@@ -13026,7 +13032,14 @@ snapshots:
       eslint: 9.34.0
       eslint-visitor-keys: 3.4.3
 
+  '@eslint-community/eslint-utils@4.9.1(eslint@9.34.0)':
+    dependencies:
+      eslint: 9.34.0
+      eslint-visitor-keys: 3.4.3
+
   '@eslint-community/regexpp@4.12.1': {}
+
+  '@eslint-community/regexpp@4.12.2': {}
 
   '@eslint/config-array@0.21.0':
     dependencies:
@@ -14375,7 +14388,7 @@ snapshots:
 
   '@typescript-eslint/utils@8.41.0(eslint@9.34.0)(typescript@5.9.2)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.34.0)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.34.0)
       '@typescript-eslint/scope-manager': 8.41.0
       '@typescript-eslint/types': 8.41.0
       '@typescript-eslint/typescript-estree': 8.41.0(typescript@5.9.2)
@@ -17543,7 +17556,7 @@ snapshots:
       hash-for-dep: 1.5.1
       heimdalljs-logger: 0.1.10
       js-string-escape: 1.0.1
-      semver: 7.6.3
+      semver: 7.7.4
       silent-error: 1.1.1
       walk-sync: 2.2.0
     transitivePeerDependencies:
@@ -17691,7 +17704,7 @@ snapshots:
   ember-cli-version-checker@5.1.2:
     dependencies:
       resolve-package-path: 3.1.0
-      semver: 7.7.4
+      semver: 7.7.3
       silent-error: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -18331,11 +18344,6 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  enhanced-resolve@5.18.2:
-    dependencies:
-      graceful-fs: 4.2.11
-      tapable: 2.3.0
-
   enhanced-resolve@5.19.0:
     dependencies:
       graceful-fs: 4.2.11
@@ -18571,8 +18579,8 @@ snapshots:
 
   eslint-plugin-es-x@7.8.0(eslint@9.34.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.34.0)
-      '@eslint-community/regexpp': 4.12.1
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.34.0)
+      '@eslint-community/regexpp': 4.12.2
       eslint: 9.34.0
       eslint-compat-utils: 0.5.1(eslint@9.34.0)
 
@@ -18605,17 +18613,17 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-n@17.21.3(eslint@9.34.0)(typescript@5.9.2):
+  eslint-plugin-n@17.23.2(eslint@9.34.0)(typescript@5.9.2):
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.34.0)
-      enhanced-resolve: 5.18.2
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.34.0)
+      enhanced-resolve: 5.19.0
       eslint: 9.34.0
       eslint-plugin-es-x: 7.8.0(eslint@9.34.0)
-      get-tsconfig: 4.10.1
+      get-tsconfig: 4.13.6
       globals: 15.15.0
       globrex: 0.1.2
       ignore: 5.3.2
-      semver: 7.7.2
+      semver: 7.7.4
       ts-declaration-location: 1.0.7(typescript@5.9.2)
     transitivePeerDependencies:
       - typescript
@@ -19392,7 +19400,7 @@ snapshots:
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
 
-  get-tsconfig@4.10.1:
+  get-tsconfig@4.13.6:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
