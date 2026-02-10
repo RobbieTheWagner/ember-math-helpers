@@ -82,7 +82,7 @@
     "prettier-plugin-ember-template-tag": "^2.1.0",
     "rollup": "^4.57.1",
     "rollup-plugin-copy": "^3.5.0",
-    "typescript": "~5.9.2",
+    "typescript": "~5.9.3",
     "typescript-eslint": "^8.41.0",
     "webpack": "^5.104.1"
   },
