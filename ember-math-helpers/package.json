@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
-    "@babel/eslint-parser": "^7.28.0",
+    "@babel/eslint-parser": "^7.28.6",
     "@babel/plugin-transform-typescript": "^7.28.0",
     "@babel/runtime": "^7.28.4",
     "@embroider/addon-dev": "^8.1.0",
