@@ -164,8 +164,8 @@ importers:
         specifier: ~5.7.0
         version: 5.7.0(339cdbc3394900937003a4b0ce07ee7b)
       '@ember-data/request':
-        specifier: ~5.8.0
-        version: 5.8.0(339cdbc3394900937003a4b0ce07ee7b)
+        specifier: ~5.8.1
+        version: 5.8.1(339cdbc3394900937003a4b0ce07ee7b)
       '@ember-data/request-utils':
         specifier: ~5.8.1
         version: 5.8.1(339cdbc3394900937003a4b0ce07ee7b)
@@ -1599,9 +1599,6 @@ packages:
     peerDependenciesMeta:
       ember-inflector:
         optional: true
-
-  '@ember-data/request@5.8.0':
-    resolution: {integrity: sha512-ys17D2XZAUMihwLR7rQWrgMgZ0MDvrtz8gcGeaLVurC/MEhE9O5iPchUMD6T9okoKOdgRgeQYh88Sn0cl0jVtQ==}
 
   '@ember-data/request@5.8.1':
     resolution: {integrity: sha512-ZyvBr/JQNoPmBkBVhAW0hKPi5WTagEMqQuzH9JmyzduuFXPHLGqdxL/8bBVwm1k6TqjaUM6y0y1/24o/Y5XGgA==}
@@ -12568,8 +12565,8 @@ snapshots:
     dependencies:
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       '@warp-drive/core': 5.7.0(339cdbc3394900937003a4b0ce07ee7b)
-      '@warp-drive/legacy': 5.7.0(881f997a468f8d831e7f6a4f28ec6483)
-      '@warp-drive/utilities': 5.7.0(5e24c0cf9735bd7965d9621fd4597ec1)
+      '@warp-drive/legacy': 5.7.0(a4c26870e923ce5a01913b98cd8949ad)
+      '@warp-drive/utilities': 5.7.0(b9f501730307a4934d0f7ab58eca1852)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
@@ -12591,8 +12588,8 @@ snapshots:
       '@ember/edition-utils': 1.2.0
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       '@warp-drive/core': 5.7.0(339cdbc3394900937003a4b0ce07ee7b)
-      '@warp-drive/legacy': 5.7.0(881f997a468f8d831e7f6a4f28ec6483)
-      '@warp-drive/utilities': 5.7.0(5e24c0cf9735bd7965d9621fd4597ec1)
+      '@warp-drive/legacy': 5.7.0(a4c26870e923ce5a01913b98cd8949ad)
+      '@warp-drive/utilities': 5.7.0(b9f501730307a4934d0f7ab58eca1852)
       ember-cli-string-utils: 1.1.0
       ember-cli-test-info: 1.0.0
       inflection: 3.0.2
@@ -12621,15 +12618,6 @@ snapshots:
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       '@warp-drive/core': 5.8.1(339cdbc3394900937003a4b0ce07ee7b)
       '@warp-drive/utilities': 5.8.1(19a942552ac85506bf0e855d6fcf02f1)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - '@glint/template'
-      - supports-color
-
-  '@ember-data/request@5.8.0(339cdbc3394900937003a4b0ce07ee7b)':
-    dependencies:
-      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
-      '@warp-drive/core': 5.8.0(339cdbc3394900937003a4b0ce07ee7b)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
@@ -12742,7 +12730,7 @@ snapshots:
 
   '@ember/test-helpers@5.2.2(339cdbc3394900937003a4b0ce07ee7b)':
     dependencies:
-      '@ember/test-waiters': 4.1.0(@glint/template@1.5.2)
+      '@ember/test-waiters': 4.1.0(339cdbc3394900937003a4b0ce07ee7b)
       '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       '@simple-dom/interface': 1.4.0
@@ -12753,11 +12741,12 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  '@ember/test-waiters@4.1.0(@glint/template@1.5.2)':
+  '@ember/test-waiters@4.1.0(339cdbc3394900937003a4b0ce07ee7b)':
     dependencies:
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@embroider/macros': 1.19.7(339cdbc3394900937003a4b0ce07ee7b)
     transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
@@ -14644,7 +14633,7 @@ snapshots:
 
   '@warp-drive/core@5.7.0(339cdbc3394900937003a4b0ce07ee7b)':
     dependencies:
-      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@embroider/macros': 1.19.7(339cdbc3394900937003a4b0ce07ee7b)
       '@warp-drive/build-config': 5.7.0(339cdbc3394900937003a4b0ce07ee7b)
     transitivePeerDependencies:
       - '@babel/core'
@@ -14689,12 +14678,13 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  '@warp-drive/legacy@5.7.0(881f997a468f8d831e7f6a4f28ec6483)':
+  '@warp-drive/legacy@5.7.0(a4c26870e923ce5a01913b98cd8949ad)':
     dependencies:
-      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@embroider/macros': 1.19.7(339cdbc3394900937003a4b0ce07ee7b)
       '@warp-drive/core': 5.7.0(339cdbc3394900937003a4b0ce07ee7b)
-      '@warp-drive/utilities': 5.7.0(5e24c0cf9735bd7965d9621fd4597ec1)
+      '@warp-drive/utilities': 5.7.0(b9f501730307a4934d0f7ab58eca1852)
     transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
@@ -14721,11 +14711,12 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  '@warp-drive/utilities@5.7.0(5e24c0cf9735bd7965d9621fd4597ec1)':
+  '@warp-drive/utilities@5.7.0(b9f501730307a4934d0f7ab58eca1852)':
     dependencies:
-      '@embroider/macros': 1.18.1(@glint/template@1.5.2)
+      '@embroider/macros': 1.19.7(339cdbc3394900937003a4b0ce07ee7b)
       '@warp-drive/core': 5.7.0(339cdbc3394900937003a4b0ce07ee7b)
     transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
