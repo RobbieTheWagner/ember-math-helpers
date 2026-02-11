@@ -36,8 +36,8 @@ importers:
   ember-math-helpers:
     dependencies:
       '@embroider/addon-shim':
-        specifier: ^1.8.9
-        version: 1.10.0
+        specifier: ^1.10.2
+        version: 1.10.2
       decorator-transforms:
         specifier: ^2.2.2
         version: 2.3.0(@babel/core@7.29.0)
@@ -1656,10 +1656,6 @@ packages:
     peerDependenciesMeta:
       rollup:
         optional: true
-
-  '@embroider/addon-shim@1.10.0':
-    resolution: {integrity: sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==}
-    engines: {node: 12.* || 14.* || >= 16}
 
   '@embroider/addon-shim@1.10.2':
     resolution: {integrity: sha512-EfI9cJ5/3QSUJtwm7x1MXrx3TEa2p7RNgSHefy7fvGm8/DP1xUFL25nST1NaHbHcqR1UhMlrTtv5iUIDoVzeQQ==}
@@ -12655,7 +12651,7 @@ snapshots:
   '@ember/test-helpers@5.2.2(339cdbc3394900937003a4b0ce07ee7b)':
     dependencies:
       '@ember/test-waiters': 4.1.0(339cdbc3394900937003a4b0ce07ee7b)
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.10.2
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       '@simple-dom/interface': 1.4.0
       decorator-transforms: 2.3.0(@babel/core@7.29.0)
@@ -12667,7 +12663,7 @@ snapshots:
 
   '@ember/test-waiters@4.1.0(339cdbc3394900937003a4b0ce07ee7b)':
     dependencies:
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.10.2
       '@embroider/macros': 1.19.7(339cdbc3394900937003a4b0ce07ee7b)
     transitivePeerDependencies:
       - '@babel/core'
@@ -12703,15 +12699,6 @@ snapshots:
       - canvas
       - supports-color
       - utf-8-validate
-
-  '@embroider/addon-shim@1.10.0':
-    dependencies:
-      '@embroider/shared-internals': 3.0.0
-      broccoli-funnel: 3.0.8
-      common-ancestor-path: 1.0.1
-      semver: 7.7.1
-    transitivePeerDependencies:
-      - supports-color
 
   '@embroider/addon-shim@1.10.2':
     dependencies:
@@ -12877,7 +12864,7 @@ snapshots:
       find-up: 5.0.0
       lodash: 4.17.21
       resolve: 1.22.10
-      semver: 7.7.1
+      semver: 7.7.4
     optionalDependencies:
       '@glint/template': 1.5.2
     transitivePeerDependencies:
@@ -12963,7 +12950,7 @@ snapshots:
       minimatch: 3.1.2
       pkg-entry-points: 1.1.1
       resolve-package-path: 4.0.3
-      semver: 7.7.1
+      semver: 7.7.4
       typescript-memoize: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -13180,7 +13167,7 @@ snapshots:
 
   '@glimmer/component@2.0.0':
     dependencies:
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.10.2
       '@glimmer/env': 0.1.7
     transitivePeerDependencies:
       - supports-color
@@ -17894,7 +17881,7 @@ snapshots:
   ember-cli-version-checker@5.1.2:
     dependencies:
       resolve-package-path: 3.1.0
-      semver: 7.7.4
+      semver: 7.7.3
       silent-error: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -18231,7 +18218,7 @@ snapshots:
 
   ember-page-title@9.0.3:
     dependencies:
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.10.2
       '@simple-dom/document': 1.4.0
     transitivePeerDependencies:
       - supports-color
@@ -18239,7 +18226,7 @@ snapshots:
   ember-qunit@9.0.4(994423a9224f9ac8c2bceceb846f405a):
     dependencies:
       '@ember/test-helpers': 5.2.2(339cdbc3394900937003a4b0ce07ee7b)
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.10.2
       '@embroider/macros': 1.18.1(@glint/template@1.5.2)
       qunit: 2.24.1
       qunit-theme-ember: 1.0.0
@@ -18294,7 +18281,7 @@ snapshots:
 
   ember-resources@7.0.3(2ecc611c4f47c3e4cb58e9d6a460f4d8):
     dependencies:
-      '@embroider/addon-shim': 1.8.9
+      '@embroider/addon-shim': 1.10.2
       '@embroider/macros': 1.19.7(339cdbc3394900937003a4b0ce07ee7b)
       '@glimmer/tracking': 1.1.2
       '@glint/template': 1.5.2
@@ -18331,7 +18318,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.29.0
       '@ember/edition-utils': 1.2.0
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.10.2
       '@glimmer/compiler': 0.94.11
       '@glimmer/component': 2.0.0
       '@glimmer/destroyable': 0.94.8
