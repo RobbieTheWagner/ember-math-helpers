@@ -82,8 +82,8 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9
       babel-plugin-ember-template-compilation:
-        specifier: ^2.2.5
-        version: 2.4.1
+        specifier: ^4.0.0
+        version: 4.0.0
       concurrently:
         specifier: ^9.2.1
         version: 9.2.1
@@ -1912,9 +1912,6 @@ packages:
   '@glimmer/syntax@0.87.1':
     resolution: {integrity: sha512-zYzZT6LgpSF0iv5iuxmMV5Pf52aE8dukNC2KfrHC6gXJfM4eLZMZcyk76NW5m+SEetZSOXX6AWv/KwLnoxiMfQ==}
 
-  '@glimmer/syntax@0.94.9':
-    resolution: {integrity: sha512-OBw8DqMzKO4LX4kJBhwfTUqtpbd7O9amQXNTfb1aS7pufio5Vu5Qi6mRTfdFj6RyJ//aSI/l0kxWt6beYW0Apg==}
-
   '@glimmer/syntax@0.95.0':
     resolution: {integrity: sha512-W/PHdODnpONsXjbbdY9nedgIHpglMfOzncf/moLVrKIcCfeQhw2vG07Rs/YW8KeJCgJRCLkQsi+Ix7XvrurGAg==}
 
@@ -2011,10 +2008,6 @@ packages:
 
   '@handlebars/parser@2.0.0':
     resolution: {integrity: sha512-EP9uEDZv/L5Qh9IWuMUGJRfwhXJ4h1dqKTT4/3+tY0eu7sPis7xh23j61SYUnNF4vqCQvvUXpDo9Bh/+q1zASA==}
-
-  '@handlebars/parser@2.2.1':
-    resolution: {integrity: sha512-D76vKOZFEGA9v6g0rZTYTQDUXNopCblW1Zeas3EEVrbdeh8gWrCEO9/goocKmcgtqAwv1Md76p58UQp7HeFTEw==}
-    engines: {node: ^18 || ^20 || ^22 || >=24}
 
   '@handlebars/parser@2.2.2':
     resolution: {integrity: sha512-n/SZW+12rwikx/f8YcSv9JCi5p9vn1Bnts9ZtVvfErG4h0gbjHI1H1ZMhVUnaOC7yzFc6PtsCKIK8XeTnL90Gw==}
@@ -3591,6 +3584,10 @@ packages:
 
   babel-plugin-ember-template-compilation@3.1.0:
     resolution: {integrity: sha512-kk7cGyblE9n4MB98rqw2wuUW7YLD5FM+Tr97gNSYL4e8DBMQndLuWaWNx1wfd7o00NjFhhoTR+HZs2nj23g2Lw==}
+    engines: {node: '>= 18.*'}
+
+  babel-plugin-ember-template-compilation@4.0.0:
+    resolution: {integrity: sha512-J2dR6ZPfPNuIR7vzhneO9xR0aTvOHITszuGif2EOYw3Qg3KlIVEd/hNnEeubyWgjYXn06Sgm6/NdNXEMNSsWYQ==}
     engines: {node: '>= 18.*'}
 
   babel-plugin-htmlbars-inline-precompile@5.3.1:
@@ -13277,20 +13274,12 @@ snapshots:
       '@handlebars/parser': 2.0.0
       simple-html-tokenizer: 0.5.11
 
-  '@glimmer/syntax@0.94.9':
-    dependencies:
-      '@glimmer/interfaces': 0.94.6
-      '@glimmer/util': 0.94.8
-      '@glimmer/wire-format': 0.94.8
-      '@handlebars/parser': 2.0.0
-      simple-html-tokenizer: 0.5.11
-
   '@glimmer/syntax@0.95.0':
     dependencies:
       '@glimmer/interfaces': 0.94.6
       '@glimmer/util': 0.94.8
       '@glimmer/wire-format': 0.94.8
-      '@handlebars/parser': 2.2.1
+      '@handlebars/parser': 2.2.2
       simple-html-tokenizer: 0.5.11
 
   '@glimmer/tracking@1.1.2':
@@ -13387,8 +13376,6 @@ snapshots:
   '@gwhitney/detect-indent@7.0.1': {}
 
   '@handlebars/parser@2.0.0': {}
-
-  '@handlebars/parser@2.2.1': {}
 
   '@handlebars/parser@2.2.2': {}
 
@@ -15274,10 +15261,16 @@ snapshots:
 
   babel-plugin-ember-template-compilation@2.4.1:
     dependencies:
-      '@glimmer/syntax': 0.94.9
+      '@glimmer/syntax': 0.95.0
       babel-import-util: 3.0.1
 
   babel-plugin-ember-template-compilation@3.1.0:
+    dependencies:
+      '@glimmer/syntax': 0.95.0
+      babel-import-util: 3.0.1
+      import-meta-resolve: 4.2.0
+
+  babel-plugin-ember-template-compilation@4.0.0:
     dependencies:
       '@glimmer/syntax': 0.95.0
       babel-import-util: 3.0.1
