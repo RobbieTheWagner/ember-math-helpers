@@ -51,7 +51,7 @@
     "test": "echo 'A v2 addon does not have tests, run tests in test-app'"
   },
   "dependencies": {
-    "@embroider/addon-shim": "^1.8.9",
+    "@embroider/addon-shim": "^1.10.2",
     "decorator-transforms": "^2.2.2"
   },
   "devDependencies": {
